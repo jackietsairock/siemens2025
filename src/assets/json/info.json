@@ -1,0 +1,278 @@
+{
+    "menu": [
+        {
+            "tag":false,
+            "tagName":"關於論壇",
+            "tagUrl":"#intro",
+            "tagClassName":"menu_intro"
+        },{
+            "tag":false,
+            "tagName":"重磅講者",
+            "tagUrl":"#speaker",
+            "tagClassName":"menu_speaker"
+        },{
+            "tag":false,
+            "tagName":"活動議程",
+            "tagUrl":"#agenda",
+            "tagClassName":"menu_agenda"
+        },{
+            "tag":false,
+            "tagName":"立即報名",
+            "tagUrl":"#signUp",
+            "tagClassName":"menu_signUp"
+        },{
+            "tag":false,
+            "tagName":"活動回顧",
+            "tagUrl":"#event",
+            "tagClassName":"menu_event"
+        }
+    ],
+    "content":[
+        {
+            "title":"關於論壇",
+            "titleColor":"#fff",
+            "text":[
+                "在震盪市況中，如何精準掌握原物料新高點？",
+                "從",
+                "原",
+                "油",
+                "、",
+                "黃",
+                "豆",
+                "、",
+                "銅",
+                "三",
+                "大",
+                "核",
+                "心",
+                "商",
+                "品",
+                "下",
+                "手",
+                "今周刊與永豐期貨攜手舉辦深度講座，聚焦市場焦點與策略實務，<br>過去場場爆滿，廣受好評，今年再度強勢登場，誠摯邀您參與！"
+            ]
+        },
+        {
+            "title":"重磅講師",
+            "titleColor":"#fff"
+        },
+        {
+            "title":"活動議程",
+            "titleColor":"#602C88",
+            "dateTimeTitle":"時間：",
+            "date":"2025/06/17 (二)",
+            "time":"14:00-16:30",
+            "dataTimeInfo":"(13:30開放報到)",
+            "locationTitle":"地點：",
+            "location":"台北喜來登飯店 B2福廳",
+            "locationInfo":"(台北市中正區忠孝東路一段12號)",
+            "agendaInfo":[
+                {
+                    "time":"時間",
+                    "topic":"內容主題",
+                    "speaker":[
+                        {
+                            "speakerName":"主講人",
+                            "speakerTitle":""
+                        }
+                    ]
+                    
+                },
+                {
+                    "time":"13:30-14:00",
+                    "topic":"來賓進場",
+                    "speaker":[
+                        {
+                            "speakerName":"",
+                            "speakerTitle":""
+                        }
+                    ]
+                },
+                {
+                    "time":"14:00-14:10",
+                    "topic":"主持人開場 ｜ 大合影",
+                    "speaker":[
+                        {
+                            "speakerName":"",
+                            "speakerTitle":""
+                        }
+                    ]
+                },{
+                    "time":"14:20-14:40",
+                    "topic":"專題演講 ❘ 多元投資策略 展望原物料市場",
+                    "speaker":[
+                        {
+                            "speakerName":"李其展 ❘ ",
+                            "speakerTitle":"財經專家"
+                        }
+                    ]
+                },{
+                    "time":"14:40-15:10",
+                    "topic":"專題演講 ❘ 神乎｢期｣技 掌握2025下半年趨勢",
+                    "speaker":[
+                        {
+                            "speakerName":"劉佳倫 ❘ ",
+                            "speakerTitle":"永豐期貨期貨分析師"
+                        }
+                    ]
+                },{
+                    "time":"15:10-15:40",
+                    "topic":"專題演講 ❘ 原物料投資心法 掌握市場脈動",
+                    "speaker":[
+                        {
+                            "speakerName":"林泳光 ❘",
+                            "speakerTitle":"街口投信基金經理人"
+                        }
+                    ]
+                },{
+                    "time":"15:40-15:50",
+                    "topic":"中場休息",
+                    "speaker":[
+                        {
+                            "speakerName":"",
+                            "speakerTitle":""
+                        }
+                    ]
+                },{
+                    "time":"15:50-16:30",
+                    "topic":"<div class='mb-1 sm:mb-5'>關鍵對談</div><div>解讀2025 點燃財富新契機<div>",
+                    "speaker":[
+                        {
+                            "speakerName":"主持人 ❘",
+                            "speakerTitle":"葉芷娟 財經主播"
+                        },{
+                            "speakerName":"與談人 ❘",
+                            "speakerTitle":"李其展 財經專家<br>劉佳倫 永豐期貨期貨分析師<br>林泳光 街口投信基金經理人"
+                        }
+                    ]
+                },{
+                    "time":"16:30",
+                    "topic":"圓滿賦歸",
+                    "speaker":[
+                        {
+                            "speakerName":"",
+                            "speakerTitle":""
+                        }
+                    ]
+                }
+            ]
+        },{
+            "title":"立即報名",
+            "titleColor":"#fff",
+            "label":[
+                {
+                    "tagName":"姓名",
+                    "inputName":"Name",
+                    "type": "input"
+                },{
+                    "tagName":"聯絡手機",
+                    "inputName":"Mobile",
+                    "type": "input"
+                },{
+                    "tagName":"Email",
+                    "inputName":"Email",
+                    "type": "input"
+                },{
+                    "tagName":"年齡",
+                    "inputName":"Age",
+                    "type": "select",
+                    "option":[
+                        {
+                            "optionName":"請選擇年齡",
+                            "value":""
+                        },
+                        {
+                            "optionName":"20歲以下",
+                            "value":"20歲以下"
+                        },{
+                            "optionName":"20-24歲",
+                            "value":"20-24歲"
+                        },{
+                            "optionName":"25-29歲",
+                            "value":"25-29歲"
+                        },{
+                            "optionName":"30-34歲",
+                            "value":"30-34歲"
+                        },{
+                            "optionName":"35-39歲",
+                            "value":"35-39歲"
+                        },{
+                            "optionName":"40-44歲",
+                            "value":"40-44歲"
+                        },{
+                            "optionName":"45-49歲",
+                            "value":"45-49歲"
+                        },{
+                            "optionName":"50-54歲",
+                            "value":"50-54歲"
+                        },{
+                            "optionName":"55-59歲",
+                            "value":"55-59歲"
+                        },{
+                            "optionName":"60-64歲",
+                            "value":"60-64歲"
+                        },{
+                            "optionName":"65歲以上",
+                            "value":"65歲以上"
+                        }
+                    ]
+                },{
+                    "tagName":"性別",
+                    "inputName":"Gender",
+                    "type": "select",
+                    "option":[
+                        {
+                            "optionName":"請選擇",
+                            "value":""
+                        },{
+                            "optionName":"先生",
+                            "value":"先生"
+                        },{
+                            "optionName":"小姐",
+                            "value":"小姐"
+                        }
+                    ]
+                },{
+                    "tagName":"公司單位",
+                    "inputName":"Company_name",
+                    "type": "input"
+                },{
+                    "tagName":"職稱",
+                    "inputName":"Job_title",
+                    "type": "input"
+                }
+            ],
+            "announce":{
+                "text":"我同意以上個資聲明",
+                "detail":"謹依個人資料保護法第8條規定告知以下事項<br>您為本次活動的參與者（以下簡稱參與人），參與人所填寫的資料將會提供予今周刊。請確認所有參與人在勾選同意前已詳閱並同意以下條款：今周刊基於客戶管理、統計及調查分析、行銷及其他含於營業登記項目或章程所定業務需要或其他法令所準許之特定目的，向參與人蒐集前述個人資料，並管理維護及處理利用，其得就該等個人資料用於寄送出版物、提供各項服務或活動訊息與調查分析使用。參與人得向活動執行單位請求查閱、提供複本、更正或補充個人資訊，及請求刪除或停止處理利用。若參與人填寫資料不完整時，可能會影響參與人獲得今周刊所提供之服務或各項訊息通知與活動之權益。"
+            },
+            "announce2":{
+                "text":"隱私權政策與投資風險聲明",
+                "detail":"1.《今周刊》重視您的個人資料保護，所有資料之蒐集、處理與利用，均依據《個人資料保護法》及本公司 隱私權政策 處理。<br>2.本網站所提供之投資資訊僅供參考，非屬個別化之投資建議。投資涉及風險，基金、ETF、期貨及其他金融商品之過去績效不代表未來表現，請依個人風險承擔能力審慎評估後再行投資。"
+            }
+        },{
+            "title":"活動回顧",
+            "titleColor":"#602C88",
+            "youtube_src":"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBToday%2Fvideos%2F883193827309415%2F&show_text=false&width=560&t=0",
+            "article":{
+                "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/168078/大圖 (1).jpg_1140x855.jpg",
+                "title":"超前布局四大關鍵力<br>掌握二O二五全球原物料投資致勝契機",
+                "describe":"美國總統川普效應啟動交易行情，帶動美元強勢走高，通膨壓力推升美國國債殖利率，資金流動揭示市場洶湧暗潮；地緣政治衝突下，原油減產帶來短期價格支撐；而農產品黃豆因種植成本攀升與耕地減少，築底後需求前景樂觀；銅身為全球工業核心金屬原料，受惠於清潔能源建設，成最有潛力的投資焦點。永豐期貨「二○二五投資新契機」論壇聚焦關鍵趨勢，邀請三位專家破解通膨風險，掌握原物料市場致勝策略，助力投資者迎接新年財富機會。",
+                "url":"https://www.businesstoday.com.tw/article/category/183012/post/202412240019/?utm_source=businesstoday&utm_medium=search&utm_campaign=article"
+            },
+            "logo":[
+                {
+                    "img":"btnet_logo.png"
+                },
+                {
+                    "img":"sp_logo.png"
+                }
+            ]
+        }
+    ],
+    "footer":{
+        "text":"今周文化事業(股)公司 / 今周行銷(股)公司 / 今周出版(股)公司 版權所有 本網站圖文非經本社同意不得刊載",
+        "copyright":"Copyright © 2025 Business Today All rights reserved."
+    }
+
+}

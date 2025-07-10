@@ -1,0 +1,24 @@
+{
+    "data":[
+        {
+            "img":"speaker1.png",
+            "name":"葉芷娟",
+            "title":"財經主播"
+        },
+        {
+            "img":"speaker2.png",
+            "name":"李其展",
+            "title":"財經專家"
+        },
+        {
+            "img":"speaker3.png",
+            "name":"劉佳倫",
+            "title":"永豐期貨<br>CFTA期貨分析師<br>CSIA證券分析師"
+        },
+        {
+            "img":"speaker4.png",
+            "name":"林泳光",
+            "title":"街口投信<br>基金經理人"
+        }
+    ]
+}
