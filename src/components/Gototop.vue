@@ -27,7 +27,7 @@ onUnmounted(() => {
     class="fixed bottom-8 w-[35px] h-[35px] right-[28px] z-50 bg-[#ffe37f] text-[#602c88] rounded-full shadow-lg text-xl font-bold hover:bg-[#ffe37fcc] transition sm:right-[30px] sm:w-[45px] sm:h-[45px]"
     aria-label="回到頂部"
   >
-    <img src="../assets/image/arrow_up.png" alt="arrow_up" class="arrow_up" />
+    <img src="/arrow_up.png" alt="arrow_up" class="arrow_up" />
   </button>
 </template>
 

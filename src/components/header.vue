@@ -23,10 +23,10 @@
 <template>
     <header>
         <a href="https://www.businesstoday.com.tw/" class="btnet_logo_box btnet_logo_box1">
-            <img src="/public/btnet_logo.png" class="btnet_logo1" alt="btnet_logo">
+            <img src="/btnet_logo.png" class="btnet_logo1" alt="btnet_logo">
         </a>
         <a href="javascript:;" class="btnet_logo_box btnet_logo_box2">
-            <img src="/public/sp_logo.png" class="btnet_logo2" alt="btnet_logo">
+            <img src="/sp_logo.png" class="btnet_logo2" alt="btnet_logo">
         </a>
 
         <nav :class="{ open: isMenuOpen }">

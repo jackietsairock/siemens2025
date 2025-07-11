@@ -12,33 +12,35 @@ import SignUpFiexd from './SignUpFiexd.vue';
 
 import infoData from '../assets/json/info.json'
 import speakers from '../assets/json/speaker.json'
+
+import '../styles/global.css';
 ---
 
 <div id="container">
 	<main>
-		<Header menu={infoData.menu} />
+		<Header menu={infoData.menu} client:load />
 		<section id="kv" class="relative w-full overflow-hidden">
-			<Kv />
+			<Kv client:load />
 		</section>
 		<section id="intro" class="relative w-full overflow-hidden">
-			<Intro infoData={infoData.content[0]} />
+			<Intro infoData={infoData.content[0]} client:load />
 		</section>
 		<section id="speaker" class="relative w-full overflow-hidden">
-			<Speaker speakers={speakers.data} infoData={infoData.content[1]}/>
+			<Speaker speakers={speakers.data} infoData={infoData.content[1]} client:load />
 		</section>
 		<section id="agenda" class="relative w-full overflow-hidden">
-			<Agenda infoData={infoData.content[2]} />
+			<Agenda infoData={infoData.content[2]} client:load />
 		</section>
 		<section id="signUp" class="relative w-full overflow-hidden">
-			<SignUp infoData={infoData.content[3]} />
+			<SignUp infoData={infoData.content[3]} client:load />
 		</section>
 		<section id="event" class="relative w-full overflow-hidden">
-			<Event infoData={infoData.content[4]} />
-			<Footer footerInfo={infoData.footer} />
+			<Event infoData={infoData.content[4]} client:load />
+			<Footer footerInfo={infoData.footer} client:load />
 		</section>
 
-		<SignUpFiexd />
-		<Gototop />
+		<SignUpFiexd client:load />
+		<Gototop client:load />
 	</main>
 </div>
 

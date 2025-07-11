@@ -122,7 +122,7 @@
                     </label>
                 </div>
                 <button type="submit" class="w-fit mx-auto mt-4 p-3 transition hover:cursor-pointer">
-                    <img src="../assets/image/sign_up_btn.png" class="w-[15rem]" alt="sign_up_btn">
+                    <img src="/sign_up_btn.png" class="w-[15rem]" alt="sign_up_btn">
                 </button>
             </form>
         </div>

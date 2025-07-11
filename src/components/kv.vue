@@ -31,11 +31,11 @@
 <template>
     <div :class="['kv_area', { 'pc': windowWidth >= 1024 }, { 'mb': windowWidth < 1024}]">
         <div class="kv_box" :style="{ width: setDivResize.width + 'px', height: setDivResize.height + 'px' }">
-            <img class="kv_gold_map" src="/src/assets/image/kv_gold_map.png" alt="kv_gold_map">
-            <img class="Bullseye_right" src="/src/assets/image/Bullseye_right.png" alt="Bullseye_right">
-            <img class="rise" data-aos="fade-in" data-aos-delay="1400" data-aos-duration="1000" src="/src/assets/image/rise.png" alt="rise">
-            <img class="kv_big_title" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" src="/src/assets/image/kv_big_title.png" alt="kv_big_title">
-            <img class="kv_right_light" src="/src/assets/image/kv_right_light.png" alt="kv_right_light">
+            <img class="kv_gold_map" src="/kv_gold_map.png" alt="kv_gold_map">
+            <img class="Bullseye_right" src="/Bullseye_right.png" alt="Bullseye_right">
+            <img class="rise" data-aos="fade-in" data-aos-delay="1400" data-aos-duration="1000" src="/rise.png" alt="rise">
+            <img class="kv_big_title" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" src="/kv_big_title.png" alt="kv_big_title">
+            <img class="kv_right_light" src="/kv_right_light.png" alt="kv_right_light">
         </div>
     </div>
 </template>
