@@ -69,10 +69,13 @@
             "agendaInfo":[
                 {
                     "time":"時間",
-                    "topic":"內容主題",
+                    "timeEn":"Time",
+                    "topic":"議程",
+                    "topicEn":"Agenda",
                     "speaker":[
                         {
-                            "speakerName":"主講人",
+                            "speakerName":"",
+                            "speakerNameEN":"",
                             "speakerTitle":""
                         }
                     ]
@@ -80,77 +83,152 @@
                 },
                 {
                     "time":"13:30-14:00",
-                    "topic":"來賓進場",
+                    "topic":"報到",
+                    "topicEn":"Registration",
                     "speaker":[
                         {
                             "speakerName":"",
+                            "speakerNameEN":"",
                             "speakerTitle":""
                         }
                     ]
                 },
                 {
-                    "time":"14:00-14:10",
-                    "topic":"主持人開場 ｜ 大合影",
+                    "time":"14:00-14:05",
+                    "topic":"開場歡迎詞",
+                    "topicEn":"Opening Remarks",
+                    "speaker":[
+                        {
+                            "speakerName":"梁永煌",
+                            "speakerNameEN":"Mr. Andy Liang, President of Business Today",
+                            "speakerTitle":"今周刊發行人"
+                        },
+                        {
+                            "speakerName":"張合翕",
+                            "speakerNameEN":"Mr. Frank Grunert, President & CEO, Siemens Taiwan",
+                            "speakerTitle":"台灣西門子總裁暨執行長"
+                        }
+                    ]
+                },{
+                    "time":"14:05-14:20",
+                    "topic":"專講一 &nbsp;&nbsp;&nbsp;打造台北城世界級的AI重鎮與淨零先驅",
+                    "topicEn":"Building Taipei into the World-class AI Powerhouse and Net-zero Pioneer",
+                    "speaker":[
+                        {
+                            "speakerName":"蔣萬安",
+                            "speakerNameEN":"Mr. Wan-an Chiang, Taipei City Mayor, R.O.C (Taiwan)",
+                            "speakerTitle":"台北市市長"
+                        }
+                    ]
+                },{
+                    "time":"14:20-14:25",
+                    "topic":"大合照",
+                    "topicEn":"Group Photos",
                     "speaker":[
                         {
                             "speakerName":"",
+                            "speakerNameEN":"",
                             "speakerTitle":""
                         }
                     ]
                 },{
-                    "time":"14:20-14:40",
-                    "topic":"專題演講 ❘ 多元投資策略 展望原物料市場",
+                    "time":"14:25-14:40",
+                    "topic":"專講二 &nbsp;&nbsp;&nbsp;A German Government Official",
+                    "topicEn":"Topic to be proposed by the German side",
                     "speaker":[
                         {
-                            "speakerName":"李其展 ❘ ",
-                            "speakerTitle":"財經專家"
+                            "speakerName":"",
+                            "speakerNameEN":"",
+                            "speakerTitle":""
                         }
                     ]
                 },{
-                    "time":"14:40-15:10",
-                    "topic":"專題演講 ❘ 神乎｢期｣技 掌握2025下半年趨勢",
+                    "time":"14:40-14:55",
+                    "topic":"專講三 &nbsp;&nbsp;&nbsp;與桃園擘劃數位未來及奔馳永續淨零",
                     "speaker":[
                         {
-                            "speakerName":"劉佳倫 ❘ ",
-                            "speakerTitle":"永豐期貨期貨分析師"
+                            "speakerName":"張善政",
+                            "speakerNameEN":"Mr. San-cheng Chang, Taoyuan City Mayor,R.O.C (Taiwan)",
+                            "speakerTitle":"桃園市市長"
                         }
                     ]
                 },{
-                    "time":"15:10-15:40",
-                    "topic":"專題演講 ❘ 原物料投資心法 掌握市場脈動",
+                    "time":"14:55-15:10",
+                    "topic":"專講四 &nbsp;&nbsp;&nbsp;以數位科技賦能城市4.0與城市淨零",
+                    "topicEn":"Empower City 4.0 and City Net-zero through Digitalization Technologies",
                     "speaker":[
                         {
-                            "speakerName":"林泳光 ❘",
-                            "speakerTitle":"街口投信基金經理人"
+                            "speakerName":"張合翕",
+                            "speakerNameEN":"Mr. Frank Grunert, President & CEO, Siemens Taiwan",
+                            "speakerTitle":"台灣西門子總裁暨執行長"
                         }
                     ]
                 },{
-                    "time":"15:40-15:50",
+                    "time":"15:10-15:20",
                     "topic":"中場休息",
+                    "topicEn":"Tea Break",
                     "speaker":[
                         {
                             "speakerName":"",
+                            "speakerNameEN":"",
                             "speakerTitle":""
                         }
                     ]
                 },{
-                    "time":"15:50-16:30",
-                    "topic":"<div class='mb-1 sm:mb-5'>關鍵對談</div><div>解讀2025 點燃財富新契機<div>",
+                    "time":"15:20-16:10",
+                    "topic":"峰會交流座談",
+                    "topicEn":"與談人 Panelists",
                     "speaker":[
                         {
-                            "speakerName":"主持人 ❘",
-                            "speakerTitle":"葉芷娟 財經主播"
-                        },{
-                            "speakerName":"與談人 ❘",
-                            "speakerTitle":"李其展 財經專家<br>劉佳倫 永豐期貨期貨分析師<br>林泳光 街口投信基金經理人"
+                            "speakerName":"Mr. Dirk Panter",
+                            "speakerNameEN":"Mr. Dirk Panter, Minister of the Saxon State Ministry for Economic Affairs,Labor and Transport, Germany",
+                            "speakerTitle":" • 德國薩克森州經濟、勞工、與交通部部長"
+                        },
+                        {
+                            "speakerName":"林旭瑩",
+                            "speakerNameEN":"Ms. Christine lin, Director, Chairman Office Smart City Platform, Foxconn",
+                            "speakerTitle":" • 鴻海科技集團董事長辦公室智慧城市平台處長"
+                        },
+                        {
+                            "speakerName":"戴英傑",
+                            "speakerNameEN":"Mr. Jim Tai, General Manager, REMONDIS Taiwan",
+                            "speakerTitle":" • 台灣瑞曼迪斯總經理"
+                        },
+                        {
+                            "speakerName":"藍依樺博士",
+                            "speakerNameEN":"Dr. Eva Langerbeck, Chief Representative, GTO",
+                            "speakerTitle":" • 德國經濟辦事處首席代表"
+                        },
+                        {
+                            "speakerName":"張合翕",
+                            "speakerNameEN":"Mr. Frank Grunert, President & CEO, Siemens Taiwan",
+                            "speakerTitle":" • 台灣西門子總裁暨執行長"
                         }
                     ]
                 },{
-                    "time":"16:30",
+                    "time":"16:10-16:20",
+                    "topic":"共同宣言",
+                    "topicEn":"Core Statements",
+                    "speaker":[
+                        {
+                            "speakerName":"許佑格博士",
+                            "speakerNameEN":"Dr. Jörg Polster, Director General, GIT",
+                            "speakerTitle":" • 德國在臺協會代表"
+                        },
+                        {
+                            "speakerName":"簡又新大使暨博士",
+                            "speakerNameEN":"Dr. Eugene Chien, Chairman,TAISE",
+                            "speakerTitle":" • 台灣永續能源研究基金會董事長"
+                        }
+                    ]
+                },{
+                    "time":"16:20",
                     "topic":"圓滿賦歸",
+                    "topicEn":"Closing",
                     "speaker":[
                         {
                             "speakerName":"",
+                            "speakerNameEN":"",
                             "speakerTitle":""
                         }
                     ]
@@ -163,82 +241,91 @@
                 {
                     "tagName":"姓名",
                     "inputName":"Name",
+                    "placeholder":"輸入姓名",
                     "type": "input"
                 },{
-                    "tagName":"聯絡手機",
+                    "tagName":"行動電話",
                     "inputName":"Mobile",
+                    "placeholder":"0912345678",
                     "type": "input"
                 },{
-                    "tagName":"Email",
+                    "tagName":"E-mail",
                     "inputName":"Email",
+                    "placeholder":"",
                     "type": "input"
                 },{
-                    "tagName":"年齡",
-                    "inputName":"Age",
-                    "type": "select",
-                    "option":[
-                        {
-                            "optionName":"請選擇年齡",
-                            "value":""
-                        },
-                        {
-                            "optionName":"20歲以下",
-                            "value":"20歲以下"
-                        },{
-                            "optionName":"20-24歲",
-                            "value":"20-24歲"
-                        },{
-                            "optionName":"25-29歲",
-                            "value":"25-29歲"
-                        },{
-                            "optionName":"30-34歲",
-                            "value":"30-34歲"
-                        },{
-                            "optionName":"35-39歲",
-                            "value":"35-39歲"
-                        },{
-                            "optionName":"40-44歲",
-                            "value":"40-44歲"
-                        },{
-                            "optionName":"45-49歲",
-                            "value":"45-49歲"
-                        },{
-                            "optionName":"50-54歲",
-                            "value":"50-54歲"
-                        },{
-                            "optionName":"55-59歲",
-                            "value":"55-59歲"
-                        },{
-                            "optionName":"60-64歲",
-                            "value":"60-64歲"
-                        },{
-                            "optionName":"65歲以上",
-                            "value":"65歲以上"
-                        }
-                    ]
+                    "tagName":"公司單位",
+                    "inputName":"Company_name",
+                    "placeholder":"",
+                    "type": "input"
                 },{
-                    "tagName":"性別",
-                    "inputName":"Gender",
+                    "tagName":"產業別",
+                    "inputName":"Industry",
                     "type": "select",
                     "option":[
                         {
                             "optionName":"請選擇",
                             "value":""
                         },{
-                            "optionName":"先生",
-                            "value":"先生"
+                            "optionName":"農、林、漁、牧業",
+                            "value":"農、林、漁、牧業"
                         },{
-                            "optionName":"小姐",
-                            "value":"小姐"
+                            "optionName":"礦業及土石採取業",
+                            "value":"礦業及土石採取業"
+                        },{
+                            "optionName":"製造業",
+                            "value":"製造業"
+                        },{
+                            "optionName":"電力及燃氣供應業",
+                            "value":"電力及燃氣供應業"
+                        },{
+                            "optionName":"營造業",
+                            "value":"營造業"
+                        },{
+                            "optionName":"批發及零售業",
+                            "value":"批發及零售業"
+                        },{
+                            "optionName":"運輸及倉儲業",
+                            "value":"運輸及倉儲業"
+                        },{
+                            "optionName":"住宿及餐飲業",
+                            "value":"住宿及餐飲業"
+                        },{
+                            "optionName":"資訊及通訊傳播業",
+                            "value":"資訊及通訊傳播業"
+                        },{
+                            "optionName":"金融及保險業",
+                            "value":"金融及保險業"
+                        },{
+                            "optionName":"不動產業",
+                            "value":"不動產業"
+                        },{
+                            "optionName":"專業、科學及技術服務業",
+                            "value":"專業、科學及技術服務業"
+                        },{
+                            "optionName":"支援服務業",
+                            "value":"支援服務業"
+                        },{
+                            "optionName":"公共行政及國防；強制性社會安全",
+                            "value":"公共行政及國防；強制性社會安全"
+                        },{
+                            "optionName":"教育服務業",
+                            "value":"教育服務業"
+                        },{
+                            "optionName":"醫療保健及社會工作服務業",
+                            "value":"醫療保健及社會工作服務業"
+                        },{
+                            "optionName":"藝術、娛樂及休閒服務業",
+                            "value":"藝術、娛樂及休閒服務業"
+                        },{
+                            "optionName":"其他服務業",
+                            "value":"其他服務業"
                         }
                     ]
                 },{
-                    "tagName":"公司單位",
-                    "inputName":"Company_name",
-                    "type": "input"
-                },{
                     "tagName":"職稱",
                     "inputName":"Job_title",
+                    "placeholder":"",
                     "type": "input"
                 }
             ],

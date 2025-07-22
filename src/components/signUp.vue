@@ -99,20 +99,20 @@
 <template>
     <div class="content_wrap">
         <Title :infoData="infoData" />
-        <div class="signUp_box max-w-[1200px] p-10 mx-auto ">
+        <div class="signUp_box max-w-[1200px] p-10 mx-auto bg-white rounded-lg shadow-lg">
             <form class="flex flex-col gap-6 w-full" @submit.prevent="checkVal">
                 <div v-for="(item, idx) in infoData.label" :key="idx" class="flex flex-col w-full sm:flex-row items-center gap-2">
-                    <label class="w-full text-white text-lg font-bold shrink-0 sm:w-24">{{ item.tagName }}</label>
+                    <label class="w-full text-black text-lg shrink-0 form_label sm:w-24">{{ item.tagName }}</label>
 
-                    <input v-if="item.type !== 'select'" v-model="form[item.inputName]" :name="item.inputName" :type="item.type" :min="item.type === 'number' ? 0 : undefined" :maxlength="item.inputName === 'Mobile' ? 10 : undefined" class="w-full flex-1 p-2 bg-white text-black border border-gray-200 focus:outline-none" />
+                    <input v-if="item.type !== 'select'" v-model="form[item.inputName]" :name="item.inputName" :type="item.type" :min="item.type === 'number' ? 0 : undefined" :maxlength="item.inputName === 'Mobile' ? 10 : undefined" :placeholder="item.placeholder" class="w-full flex-1 p-2 bg-white text-black border border-gray-300 focus:outline-none" />
                     
-                    <select v-else v-model="form[item.inputName]" :name="item.inputName" class="w-full flex-1 p-2 bg-white text-black border border-gray-200 focus:outline-none">
+                    <select v-else v-model="form[item.inputName]" :name="item.inputName" class="w-full flex-1 p-2 bg-white text-black border border-gray-300 focus:outline-none">
                         <option v-for="(opt, idx) in item.option" :key="idx" :value="opt.value">{{ opt.optionName }}</option>
                     </select>
                 </div>
-                <div class="flex items-start gap-2 mt-2">
+                <div class="flex items-start gap-2 mt-2 p-5 bg-gray-300">
                     <input v-model="form.Agree" type="checkbox" id="agree" class="mt-1" />
-                    <label for="agree" class="text-white text-sm leading-tight">
+                    <label for="agree" class="text-black text-sm leading-tight">
                         {{infoData.announce.text}}<br />
                         <span class="block text-xs leading-snug mt-1 text-justify" v-html="infoData.announce.detail">
                         </span><br />
@@ -131,5 +131,10 @@
 </template>
 
 <style scoped>
-
+    .form_label::before{
+        content:'*';
+        color: red;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
 </style>
