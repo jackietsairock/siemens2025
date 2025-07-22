@@ -46,12 +46,12 @@
                         </div>
                         <div class="speaker_area flex flex-col w-full gap-3">
                             <div v-for="(item ,idx2) in item.speaker" :key="idx2" class="speaker_box flex flex-col text-md w-full lg:text-xl" style="color: #4F4D4D;">
-                                <div class="">
+                                <div :class="[idx1 === 9 || idx1 === 10 ? 'label_dot pl-5 relative' : '']">
                                     <span v-html="item.speakerTitle"></span>
                                     <span class="whitespace-nowrap ml-1 font-bold" style="color: #602C88;">{{item.speakerName}}</span>
                                 </div>
-                                <div class="flex flex-row">
-                                    <p :class="['whitespace-normal', 'text-neutral-400', 'text-sm', idx1 === 9 || idx1 === 10 ? 'sm:ml-7' : 'ml-0']" v-html="item.speakerNameEN"></p>
+                                <div>
+                                    <p :class="['whitespace-normal', 'text-neutral-400', 'text-sm', idx1 === 9 || idx1 === 10 ? 'ml-5 sm:ml-7' : 'ml-0']" v-html="item.speakerNameEN"></p>
                                 </div>
                             </div>
                         </div>
@@ -77,6 +77,13 @@
 
     .agenda_table_item:last-child{
         border-bottom: none;
+    }
+
+    .label_dot::before{
+        content:"•";
+        position: absolute;
+        left: 0;
+        font-weight: bold;
     }
 
 </style>
