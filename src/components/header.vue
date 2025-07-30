@@ -108,7 +108,7 @@
     .menu_icon span {
         display: block;
         height: 3px;
-        background-color: #5e74f3;
+        background-color: #838383;
         border-radius: 2px;
         /* transition: all 0.3s ease; */
     }
@@ -163,7 +163,6 @@
         position: relative;
         display: block;
         text-decoration: none;
-        color: #602C88;
         padding: 0.5rem 1rem;
     }
 
