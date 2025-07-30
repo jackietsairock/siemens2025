@@ -2,29 +2,34 @@
     "menu": [
         {
             "tag":false,
-            "tagName":"關於論壇",
-            "tagUrl":"#intro",
-            "tagClassName":"menu_intro"
+            "tagName":"論壇簡介",
+            "tagNameEn":"about",
+            "tagUrl":"#about",
+            "tagClassName":"menu_about"
         },{
             "tag":false,
-            "tagName":"重磅講者",
-            "tagUrl":"#speaker",
-            "tagClassName":"menu_speaker"
+            "tagName":"講者簡介",
+            "tagNameEn":"speakers",
+            "tagUrl":"#speakers",
+            "tagClassName":"menu_speakers"
         },{
             "tag":false,
-            "tagName":"活動議程",
+            "tagName":"論壇議程",
+            "tagNameEn":"agenda",
             "tagUrl":"#agenda",
             "tagClassName":"menu_agenda"
         },{
             "tag":false,
-            "tagName":"立即報名",
+            "tagName":"報名欄目",
+            "tagNameEn":"signUp",
             "tagUrl":"#signUp",
             "tagClassName":"menu_signUp"
         },{
             "tag":false,
-            "tagName":"活動回顧",
-            "tagUrl":"#event",
-            "tagClassName":"menu_event"
+            "tagName":"產業動態",
+            "tagNameEn":"news",
+            "tagUrl":"#news",
+            "tagClassName":"menu_news"
         }
     ],
     "content":[

@@ -22,24 +22,24 @@
 
 <template>
     <header>
-        <a href="https://www.businesstoday.com.tw/" class="btnet_logo_box btnet_logo_box1">
-            <img src="/btnet_logo.png" class="btnet_logo1" alt="btnet_logo">
-        </a>
-        <a href="javascript:;" class="btnet_logo_box btnet_logo_box2">
-            <img src="/sp_logo.png" class="btnet_logo2" alt="btnet_logo">
-        </a>
-
-        <nav :class="{ open: isMenuOpen }">
-            <a
-                v-for="(item, idx) in menu"
-                :key="idx"
-                :href="item.tagUrl"
-                :class="['text-lg', item.tagClassName,'sm:text-xl','text-center']"
-                @click="handleClick"
-            >
-                {{ item.tagName }}
+        <div class="nav_content_wrap">
+            <a href="https://www.businesstoday.com.tw/" class="btnet_logo_box btnet_logo_box1">
+                <img src="/nav_smart_logo.svg" class="btnet_logo1" alt="btnet_logo">
             </a>
-        </nav>
+
+            <nav :class="{ open: isMenuOpen }">
+                <a
+                    v-for="(item, idx) in menu"
+                    :key="idx"
+                    :href="item.tagUrl"
+                    :class="['text-lg', item.tagClassName,'sm:text-xl','text-center']"
+                    @click="handleClick"
+                >
+                    <p class="nav_text_ch text-black font-bold">{{ item.tagName }}</p>
+                    <p class="nav_text_en text-stone-400 text-sm">{{ item.tagNameEn }}</p>
+                </a>
+            </nav>
+        </div>
 
         <div :class="['menu_icon', {open: isMenuOpen }]" @click="toggleMenu">
             <span></span>
@@ -56,35 +56,32 @@
         display: block;
         background-color: #fff;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        height: 80px;
+        height: 100px;
         top: 0;
         width: 100%;
         left: 0;
         z-index: 99;
     }
 
+    .nav_content_wrap{
+        position: relative;
+        display: block;
+        max-width: 1366px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+
     /* Logo 樣式 */
     .btnet_logo_box1 {
         position: absolute;
         display: block;
-        width: 120px;
-        height: 45px;
+        width: 140px;
+        height: 63px;
         top: 0;
         bottom: 0;
         margin: auto 0;
         z-index: 2;
         left: 25px;
-    }
-    .btnet_logo_box2 {
-        position: absolute;
-        display: block;
-        width: 250px;
-        height: 50px;
-        z-index: 1;
-        top: 0;
-        bottom: 0;
-        margin: auto 0;
-        left: 175px;
     }
 
     .btnet_logo_box img {
@@ -111,7 +108,7 @@
     .menu_icon span {
         display: block;
         height: 3px;
-        background-color: #602C88;
+        background-color: #5e74f3;
         border-radius: 2px;
         /* transition: all 0.3s ease; */
     }
@@ -126,7 +123,7 @@
     }
 
     .menu_icon:hover span {
-        background-color: #602C88;
+        background-color: #000;
     }
 
     .menu_icon.open {
@@ -151,11 +148,9 @@
         display: flex;
         flex-direction: row;
         position: absolute;
-        top: 0;
-        bottom: 0;
+        bottom: 5px;
         right: 25px;
         background-color: #fff;
-        margin: auto 0;
         height: fit-content;
         width: fit-content;
     }
@@ -172,17 +167,6 @@
         padding: 0.5rem 1rem;
     }
 
-    nav a::after{
-        content:'';
-        position: absolute;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto 0;
-        height: 40%;
-        border-right: 1px solid #000;
-    }
-
     nav a:last-child::after{
         display: none;
     }
@@ -191,20 +175,31 @@
         color: #000;
     }
 
+    nav .nav_text_ch::after{
+        content:'';
+        position: relative;
+        display: block;
+        right: 0;
+        left: 0;
+        margin: 1px auto 0 auto;
+        width: 30%;
+        height: 2px;
+        background-color: #a6a09b;
+    }
+
     @media screen and (max-width: 1024px) {
         header{
             height: 55px;
+        }
+
+        .nav_content_wrap{
+            padding: 28px 0;
         }
 
         .btnet_logo_box1 {
             width: 84px;
             height: 33px;
             left: 25px;
-        }
-        .btnet_logo_box2 {
-            width: 135px;
-            height: 35px;
-            left: 130px;
         }
 
         .menu_icon{
@@ -232,6 +227,14 @@
 
         nav a:last-child{
             border-bottom: 0;
+        }
+
+        nav .nav_text_ch::after{
+            display: none;
+        }
+
+        .nav_text_en{
+            display: none;
         }
     }
 </style>

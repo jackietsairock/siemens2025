@@ -22,21 +22,23 @@ import '../styles/global.css';
 		<section id="kv" class="relative w-full overflow-hidden">
 			<Kv client:load />
 		</section>
-		<section id="intro" class="relative w-full overflow-hidden">
-			<Intro infoData={infoData.content[0]} client:load />
+		<section id="about" class="relative w-full overflow-hidden">
+			<Intro infoData={infoData.content[0]} client:visible />
 		</section>
-		<section id="speaker" class="relative w-full overflow-hidden">
-			<Speaker speakers={speakers.data} infoData={infoData.content[1]} client:load />
+		<section id="speakers" class="relative w-full overflow-hidden">
+			<Speaker speakers={speakers.data} infoData={infoData.content[1]} client:visible />
 		</section>
 		<section id="agenda" class="relative w-full overflow-hidden">
-			<Agenda infoData={infoData.content[2]} client:load />
+			<Agenda infoData={infoData.content[2]} client:visible />
 		</section>
 		<section id="signUp" class="relative w-full overflow-hidden">
-			<SignUp infoData={infoData.content[3]} client:load />
+			<SignUp infoData={infoData.content[3]} client:visible />
 		</section>
-		<section id="event" class="relative w-full overflow-hidden">
-			<Event infoData={infoData.content[4]} client:load />
-			<Footer footerInfo={infoData.footer} client:load />
+		<section id="news" class="relative w-full overflow-hidden">
+			<Event infoData={infoData.content[4]} client:visible />
+		</section>
+		<section id="footer" class="relative w-full overflow-hidden">
+			<Footer footerInfo={infoData.footer} client:visible />
 		</section>
 
 		<SignUpFiexd client:load />
@@ -46,46 +48,46 @@ import '../styles/global.css';
 
 <style>
 	.logo {
-	height: 6em;
-	padding: 1.5em;
-	will-change: filter;
-	transition: filter 300ms;
+		height: 6em;
+		padding: 1.5em;
+		will-change: filter;
+		transition: filter 300ms;
 	}
 	.logo:hover {
-	filter: drop-shadow(0 0 2em #646cffaa);
+		filter: drop-shadow(0 0 2em #646cffaa);
 	}
 	.logo.vue:hover {
-	filter: drop-shadow(0 0 2em #42b883aa);
+		filter: drop-shadow(0 0 2em #42b883aa);
 	}
 
-	#intro{
+	#about{
 		padding: 90px 0;
 		background: url('../assets/image/intro_bg.png') center center no-repeat;
 		background-size: cover;
 	}
 
-	#speaker{
-	background: url('../assets/image/kv_bg.png') fixed center center no-repeat;
-	background-size: cover;
+	#speakers{
+		background: url('../assets/image/kv_bg.png') fixed center center no-repeat;
+		background-size: cover;
 	}
 
 	#agenda{
-	background: url('../assets/image/event_bg.png') center center no-repeat;
-	background-size: cover;
+		background: url('../assets/image/event_bg.png') center center no-repeat;
+		background-size: cover;
 	}
 
 	#signUp{
-	background: url('../assets/image/sign_up_bg.png') fixed center center no-repeat;
-	background-size: cover;
+		background: url('../assets/image/sign_up_bg.png') fixed center center no-repeat;
+		background-size: cover;
 	}
 
-	#event{
-	background: url('../assets/image/event_bg.png') center center no-repeat;
-	background-size: cover;
+	#news{
+		background: url('../assets/image/event_bg.png') center center no-repeat;
+		background-size: cover;
 	}
 
 	@media screen and (max-width: 1024px) {
-		#intro{
+		#about{
 			padding: 0 0;
 		}
 	
