@@ -170,8 +170,14 @@
         display: none;
     }
 
-    nav a:hover {
-        color: #000;
+    nav a:hover p{
+        transition: .3s;
+        color: #5e74f3 !important;
+    }
+
+    nav a:hover .nav_text_ch::after{
+        transition: .3s;
+        background-color: #5e74f3 !important;
     }
 
     nav .nav_text_ch::after{
