@@ -8,7 +8,7 @@
             "tagClassName":"menu_about"
         },{
             "tag":false,
-            "tagName":"講者簡介",
+            "tagName":"講者介紹",
             "tagNameEn":"speakers",
             "tagUrl":"#speakers",
             "tagClassName":"menu_speakers"
@@ -34,8 +34,10 @@
     ],
     "content":[
         {
-            "title":"關於論壇",
+            "title":"論壇簡介",
             "titleColor":"#fff",
+            "titleEn":"about",
+            "titleEnColor":"#fff",
             "text":[
                 "在震盪市況中，如何精準掌握原物料新高點？",
                 "從",
@@ -58,12 +60,16 @@
             ]
         },
         {
-            "title":"重磅講師",
-            "titleColor":"#fff"
+            "title":"講者介紹",
+            "titleColor":"#3b4754",
+            "titleEn":"speakers",
+            "titleEnColor":"#5e74f3"
         },
         {
-            "title":"活動議程",
-            "titleColor":"#602C88",
+            "title":"論壇議程",
+            "titleColor":"#3b4754",
+            "titleEn":"agenda",
+            "titleEnColor":"#5e74f3",
             "dateTimeTitle":"時間：",
             "date":"2025/06/17 (二)",
             "time":"14:00-16:30",
@@ -241,7 +247,9 @@
             ]
         },{
             "title":"立即報名",
-            "titleColor":"#fff",
+            "titleColor":"#3b4754",
+            "titleEn":"sign up",
+            "titleEnColor":"#5e74f3",
             "label":[
                 {
                     "tagName":"姓名",
@@ -343,8 +351,10 @@
                 "detail":"1.《今周刊》重視您的個人資料保護，所有資料之蒐集、處理與利用，均依據《個人資料保護法》及本公司 隱私權政策 處理。<br>2.本網站所提供之投資資訊僅供參考，非屬個別化之投資建議。投資涉及風險，基金、ETF、期貨及其他金融商品之過去績效不代表未來表現，請依個人風險承擔能力審慎評估後再行投資。"
             }
         },{
-            "title":"活動回顧",
-            "titleColor":"#602C88",
+            "title":"產業動態",
+            "titleColor":"#3b4754",
+            "titleEn":"NEWS",
+            "titleEnColor":"#5e74f3",
             "youtube_src":"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBToday%2Fvideos%2F883193827309415%2F&show_text=false&width=560&t=0",
             "article":{
                 "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/168078/大圖 (1).jpg_1140x855.jpg",
