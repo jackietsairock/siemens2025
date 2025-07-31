@@ -31,11 +31,25 @@
 <template>
     <div :class="['kv_area', { 'pc': windowWidth >= 1024 }, { 'mb': windowWidth < 1024}]">
         <div class="kv_box" :style="{ width: setDivResize.width + 'px', height: setDivResize.height + 'px' }">
-            <img class="kv_gold_map" src="/kv_gold_map.png" alt="kv_gold_map">
+            <!-- <img class="kv_gold_map" src="/kv_gold_map.png" alt="kv_gold_map">
             <img class="Bullseye_right" src="/Bullseye_right.png" alt="Bullseye_right">
             <img class="rise" data-aos="fade-in" data-aos-delay="1400" data-aos-duration="1000" src="/rise.png" alt="rise">
             <img class="kv_big_title" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" src="/kv_big_title.png" alt="kv_big_title">
-            <img class="kv_right_light" src="/kv_right_light.png" alt="kv_right_light">
+            <img class="kv_right_light" src="/kv_right_light.png" alt="kv_right_light"> -->
+
+            <img class="kv_smart_logo" src="/kv_smart_logo.svg" alt="kv_smart_logo" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
+            <img class="kv_title" src="/kv_title.svg" alt="kv_title" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
+            <img class="kv_subtitle" src="/kv_subtitle.svg" alt="kv_subtitle" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
+
+            <div class="kv_logo_area" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+                <img class="kv_logo kv_logo5" src="/logo5.svg" alt="kv_logo5" />
+                <img class="kv_logo kv_logo2" src="/logo2.svg" alt="kv_logo2" />
+                <img class="kv_logo kv_logo1" src="/logo1.svg" alt="kv_logo1" />
+                <img class="kv_logo kv_logo3" src="/logo3.svg" alt="kv_logo3" />
+                <img class="kv_logo kv_logo4" src="/logo4.svg" alt="kv_logo4" />
+            </div>
+
+            <img class="kv_infinity" src="/kv_infinity.svg" alt="kv_infinity" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000" />
         </div>
     </div>
 </template>
@@ -49,6 +63,7 @@
         background: url('../assets/image/kv_bg.png') fixed center center no-repeat;
         background-size: cover;
         margin-top: 80px;
+        overflow: hidden;
     }
 
     .kv_area.pc{
@@ -64,58 +79,64 @@
         top: 5%;
         bottom: 0;
         margin: auto;
+        z-index: 2;
     }
 
-    .kv_big_title{
+    .kv_smart_logo{
         position: absolute;
-        display: block;
-        width: 63%;
-        left: -4%;
-        top: -1%;
-        z-index: 4;
+        top: -47%;
+        left: 9%;
+        width: 23%;
     }
 
-    .rise{
+    .kv_title{
         position: absolute;
-        display: block;
+        top: -22%;
+        left: 31%;
         width: 61%;
-        top: -62%;
-        left: -17%;
-        z-index: 2;
-        mix-blend-mode: lighten;
     }
 
-    .kv_gold_map{
+    .kv_subtitle{
         position: absolute;
-        display: block;
-        width: 80%;
-        right: -7%;
-        top: -31%;
-        z-index: 2;
+        top: 5%;
+        left: 24%;
+        width: 52%;
     }
 
-    .Bullseye_right{
+    .kv_logo_area{
         position: absolute;
-        display: block;
+        top: 30%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        width: 100%;
+        height: 25%;
+    }
+
+    .kv_infinity{
+        position: absolute;
         z-index: 1;
-        width: 149%;
-        max-width: none;
-        right: -65%;
-        top: -107%;
-        mix-blend-mode: overlay;
-        opacity: .7;
+        right: -23%;
+        bottom: -40%;
+        width: 51%;
     }
 
-    .kv_right_light{
-        position: absolute;
-        display: block;
-        width: 80%;
-        right: -30%;
-        top: -50%;
-        z-index: 3;
-        mix-blend-mode: hard-light;
+    .kv_logo{
+        height: 100%;
     }
 
+    .kv_logo5{
+        height: 70%;
+    }
+
+    .kv_logo1{
+        height: 140%;
+    }
+    
     @media screen and (max-width:1366px) {
         /* .kv_box {
             top: -10%;
@@ -144,36 +165,44 @@
             top: -9%;
         }
 
-        .kv_big_title{
-            width: 106%;
-            max-width: none;
-            bottom: 0;
-            left: -5%;
-            top: -18%;
-            margin: auto;
+        .kv_smart_logo{
+            top: -12%;
+            left: 0%;
+            right: 0%;
+            width: 42%;
+            margin: 0 auto;
         }
 
-        .rise{
-            width: 108%;
-            top: -16%;
-            left: -27%;
+        .kv_title{
+            position: absolute;
+            top: 10%;
+            left: 0%;
+            right: 0%;
+            width: 100%;
+            margin: 0 auto
         }
 
-        .kv_gold_map{
-            width: 119%;
-            right: -9%;
-            top: 68%;
-            max-width: none;
+        .kv_subtitle{
+            position: absolute;
+            top: 25%;
+            left: 0%;
+            right: 0%;
+            width: 80%;
+            margin: 0 auto;
         }
 
-        .kv_right_light{
-            right: -24%;
-            top: 72%;
+        .kv_logo_area{
+            top: 40%;
+            width: 100%;
+            height: 9%;
         }
 
-        .Bullseye_right{
-            right: -59%;
-            top: 54%;
+        .kv_infinity{
+            right: 0%;
+            left: 0%;
+            bottom: 5%;
+            width: 75%;
+            margin: 0 auto;
         }
     }
 
@@ -186,6 +215,54 @@
     @media screen and (max-width: 768px) {
         .kv_area.mb{
             min-height: 667px;
+        }
+
+    }
+
+    @media screen and (max-width: 560px) {
+        .kv_smart_logo{
+            top: -27%;
+            left: 0%;
+            right: 0%;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .kv_title{
+            top: 0%;
+        }
+
+        .kv_subtitle{
+            top: 15%;
+            width: 90%;
+        }
+
+        .kv_logo_area{
+            top: 27%;
+            height: 28%;
+            width: 90%;
+            gap: 0%;
+            /* border: 1px solid #000; */
+            flex-wrap: wrap;
+            justify-content: start;
+        }
+
+        .kv_logo{
+            height: 50%;
+            margin-right: 8%;
+        }
+
+        .kv_logo5{
+            height: 35%;
+        }
+
+        .kv_logo1{
+            height: 65%;
+        }
+
+        .kv_infinity{
+            width: 90%;
+            bottom: -9%;
         }
     }
 </style>
