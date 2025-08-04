@@ -2,8 +2,8 @@
 import Header from './header.vue';
 import Footer from './footer.vue';
 import Kv from './kv.vue';
-import Intro from './intro.vue';
-import Speaker from './speaker.vue';
+import About from './about.vue';
+import Speakers from './speakers.vue';
 import Agenda from './agenda.vue';
 import SignUp from './signUp.vue';
 import Event from './event.vue';
@@ -23,10 +23,10 @@ import '../styles/global.css';
 			<Kv client:load />
 		</section>
 		<section id="about" class="relative w-full overflow-hidden">
-			<Intro infoData={infoData.content[0]} client:visible />
+			<About infoData={infoData.content[0]} client:visible />
 		</section>
 		<section id="speakers" class="relative w-full overflow-hidden">
-			<Speaker speakers={speakers.data} infoData={infoData.content[1]} client:visible />
+			<Speakers speakers={speakers.data} infoData={infoData.content[1]} client:visible />
 		</section>
 		<section id="agenda" class="relative w-full overflow-hidden">
 			<Agenda infoData={infoData.content[2]} client:visible />
@@ -62,17 +62,18 @@ import '../styles/global.css';
 
 	#about{
 		padding: 90px 0;
-		background: url('../assets/image/intro_bg.png') center center no-repeat;
+		background: url('../assets/image/about_bg.png') center center no-repeat;
 		background-size: cover;
 	}
 
 	#speakers{
-		background: url('../assets/image/kv_bg.png') fixed center center no-repeat;
+		background: url('../assets/image/speaker_infinity_bg.png') fixed center center no-repeat;
 		background-size: cover;
+		background-color: #fff;
 	}
 
 	#agenda{
-		background: url('../assets/image/event_bg.png') center center no-repeat;
+		background: url('../assets/image/agenda_bg.png') center center no-repeat;
 		background-size: cover;
 	}
 
@@ -89,6 +90,11 @@ import '../styles/global.css';
 	@media screen and (max-width: 1024px) {
 		#about{
 			padding: 0 0;
+		}
+
+		#speakers{
+			background: url('../assets/image/speaker_infinity_bg.png') fixed right center no-repeat;
+			background-size: cover;
 		}
 	
 	}

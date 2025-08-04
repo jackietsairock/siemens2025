@@ -36,13 +36,13 @@ const modules = [Navigation]
 <template>
   <div class="content_wrap">
     <Title :infoData="infoData" />
-    <div class="speaker_box relative max-w-[1366px] p-12 mx-auto flex flex-col flex-wrap items-center justify-center gap-[55px] sm:flex-row sm:items-start">
-      <div class="absolute flex justify-between items-center h-[60%] w-full mb-4">
-        <button id="custom-prev" class="swiper-arrow swiper-button-prev-custom">←</button>
-        <button id="custom-next" class="swiper-arrow swiper-button-next-custom">→</button>
+    <div class="speaker_box relative max-w-[1366px] p-18 mx-auto flex flex-col flex-wrap items-center justify-center gap-[55px] sm:flex-row sm:items-start">
+      <div class="absolute flex justify-between items-center h-[60%] w-[95%] sm:w-full mb-4">
+        <button id="custom-prev" class="swiper-arrow swiper-button-prev-custom w-10 h-10"><img src="/arrow_left.png" alt="arrow_left" /></button>
+        <button id="custom-next" class="swiper-arrow swiper-button-next-custom w-10 h-10"><img src="/arrow_right.png" alt="arrow_right" /></button>
       </div>
       <Swiper
-        :slides-per-view="[windowWidth >= 1024 ? 4 : windowWidth >= 768 ? 3 : 2]"
+        :slides-per-view="[windowWidth >= 1024 ? 4 : windowWidth >= 768 ? 3 : 1]"
         :space-between="30"
         :loop="true"
         :navigation="{
@@ -53,12 +53,14 @@ const modules = [Navigation]
         class="mySwiper"
       >
         <SwiperSlide v-for="(item, idx) in speakers" :key="idx" class="speaker_item flex flex-col items-center w-full sm:w-[33%] md:w-[33%] lg:w-[20%]">
-          <div class="speaker_img mb-3">
-            <img :src="item.img" :alt="item.name" />
+          <div class="speaker_img mb-5">
+            <img :src="item.img" :alt="item.name" class="w-full" />
           </div>
-          <div class="speaker_text text-center">
-            <h2 class="text-4xl font-bold text-white mb-2">{{ item.name }}</h2>
-            <p class="text-2xl text-white" v-html="item.title"></p>
+          <div class="speaker_text">
+            <h2 class="text-4xl font-bold text-stone-700 mb-2">{{ item.name }}</h2>
+            <h2 class="text-xl font-bold mb-4">{{ item.nameEn }}</h2>
+            <p class="text-xl text-stone-600" v-html="item.title"></p>
+            <p class="text-xl text-stone-400" v-html="item.titleEn"></p>
           </div>
         </SwiperSlide>
       </Swiper>
@@ -74,6 +76,10 @@ const modules = [Navigation]
 
   .swiper-arrow{
     cursor: pointer;
+  }
+
+  h2:nth-child(2){
+    color:#5e74f3;
   }
 
 </style>

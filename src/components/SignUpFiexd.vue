@@ -30,7 +30,7 @@ onUnmounted(() => {
     class="fixed bottom-25 right-5 z-52 hover:opacity-80"
     aria-label="到報名頁面"
   >
-    <img class="w-[50px] sm:w-[70px]" src="/sign_up_fiexd_btn.png" alt="sign_up_fiexd_btn">
+    <img class="w-[50px] sm:w-[65px]" src="/sign_up_fiexd_btn.png" alt="sign_up_fiexd_btn">
   </button>
 </template>
 

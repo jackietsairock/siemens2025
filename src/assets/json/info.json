@@ -39,24 +39,9 @@
             "titleEn":"about",
             "titleEnColor":"#fff",
             "text":[
-                "在震盪市況中，如何精準掌握原物料新高點？",
-                "從",
-                "原",
-                "油",
-                "、",
-                "黃",
-                "豆",
-                "、",
-                "銅",
-                "三",
-                "大",
-                "核",
-                "心",
-                "商",
-                "品",
-                "下",
-                "手",
-                "今周刊與永豐期貨攜手舉辦深度講座，聚焦市場焦點與策略實務，<br>過去場場爆滿，廣受好評，今年再度強勢登場，誠摯邀您參與！"
+                "繼「城市4.0」、強調以數位科技達成智慧基礎建設互聯綜效之外，因應氣候變遷重大挑戰的「城市淨零」儼然成為另一項關鍵議題。在這場橫跨智理、科技、永續與經濟體質的深層變革中，城市不再只是因應者，更是引領永續未來的行動推手。",
+                "2025年，台灣永續高峰會將以「從城市4.0到城市淨零」為主題，匯聚來自台灣與德國的公私部門代表，聚焦數位轉型與淨零實踐的交匯處，探討如何透過科技創新、制度整合與跨界協作，加速城市治理與產業升級的雙軸轉型。",
+                "面對全球邁向淨零的關鍵十年，本屆高峰會將成為一個前瞻對話的策略平台，連結在地實踐與國際經驗，推動台灣以更有韌性、更具競爭力的姿態，邁向智慧與永續共構的城市未來。"
             ]
         },
         {
@@ -70,13 +55,13 @@
             "titleColor":"#3b4754",
             "titleEn":"agenda",
             "titleEnColor":"#5e74f3",
-            "dateTimeTitle":"時間：",
-            "date":"2025/06/17 (二)",
+            "dateTimeTitle":"時間",
+            "date":"2025年9月30日(二)",
             "time":"14:00-16:30",
-            "dataTimeInfo":"(13:30開放報到)",
-            "locationTitle":"地點：",
-            "location":"台北喜來登飯店 B2福廳",
-            "locationInfo":"(台北市中正區忠孝東路一段12號)",
+            "dataTimeInfo":"(13:30開始報到)",
+            "locationTitle":"地點",
+            "location":"台北遠東香格里拉飯店三樓遠東宴會廳",
+            "locationInfo":"(台北市敦化南路二段201號3F)",
             "agendaInfo":[
                 {
                     "time":"時間",
@@ -122,8 +107,8 @@
                     ]
                 },{
                     "time":"14:05-14:20",
-                    "topic":"專講一 &nbsp;&nbsp;&nbsp;打造台北城世界級的AI重鎮與淨零先驅",
-                    "topicEn":"Building Taipei into the World-class AI Powerhouse and Net-zero Pioneer",
+                    "topic":"專講1 / 台北市 – 打造台北成世界級的AI重鎮與淨零先驅",
+                    "topicEn":"Keynote 1 / Taipei City<br>Building Taipei into the World-class AI Powerhouse and Net-zero Pioneer",
                     "speaker":[
                         {
                             "speakerName":"蔣萬安",
@@ -144,18 +129,19 @@
                     ]
                 },{
                     "time":"14:25-14:40",
-                    "topic":"專講二 &nbsp;&nbsp;&nbsp;A German Government Official",
-                    "topicEn":"Topic to be proposed by the German side",
+                    "topic":"專講2 / 德國政府代表",
+                    "topicEn":"Keynote 2 / A German Government Official",
                     "speaker":[
                         {
-                            "speakerName":"",
-                            "speakerNameEN":"",
-                            "speakerTitle":""
+                            "speakerName":"德國薩克森邦州⻑",
+                            "speakerNameEN":"Mr. Michael Kretschmer",
+                            "speakerTitle":"Mr. Michael Kretschmer, Minister President of Saxony, Germany"
                         }
                     ]
                 },{
                     "time":"14:40-14:55",
-                    "topic":"專講三 &nbsp;&nbsp;&nbsp;與桃園擘劃數位未來及奔馳永續淨零",
+                    "topic":"專講3 / 桃園市 – 與桃園擘劃數位未來及奔馳永續淨零",
+                    "topicEn":"Keynote 3 / Taoyuan City<br>Digitalize the City’s Future and Race to Zero with Taoyuan",
                     "speaker":[
                         {
                             "speakerName":"張善政",
@@ -165,8 +151,8 @@
                     ]
                 },{
                     "time":"14:55-15:10",
-                    "topic":"專講四 &nbsp;&nbsp;&nbsp;以數位科技賦能城市4.0與城市淨零",
-                    "topicEn":"Empower City 4.0 and City Net-zero through Digitalization Technologies",
+                    "topic":"專講4 / 德國科技夥伴 – 以數位科技賦能城市4.0與城市淨零",
+                    "topicEn":"Keynote 5 / German Technology Partner<br>Empower City 4.0 and City Net-zero through Digitalization Technologies",
                     "speaker":[
                         {
                             "speakerName":"張合翕",
@@ -175,7 +161,7 @@
                         }
                     ]
                 },{
-                    "time":"15:10-15:20",
+                    "time":"15:10-15:25",
                     "topic":"中場休息",
                     "topicEn":"Tea Break",
                     "speaker":[
@@ -186,7 +172,7 @@
                         }
                     ]
                 },{
-                    "time":"15:20-16:10",
+                    "time":"15:25-16:25",
                     "topic":"峰會交流座談",
                     "topicEn":"與談人 Panelists",
                     "speaker":[
@@ -201,9 +187,9 @@
                             "speakerTitle":"鴻海科技集團董事長辦公室智慧城市平台處長"
                         },
                         {
-                            "speakerName":"戴英傑",
-                            "speakerNameEN":"Mr. Jim Tai, General Manager, REMONDIS Taiwan",
-                            "speakerTitle":"台灣瑞曼迪斯總經理"
+                            "speakerName":"莫德飛",
+                            "speakerNameEN":"Mr. Philipp Moede, Director of Operations, REMONDIS Taiwan",
+                            "speakerTitle":"台灣瑞曼迪斯營運總監"
                         },
                         {
                             "speakerName":"藍依樺博士",
@@ -217,7 +203,7 @@
                         }
                     ]
                 },{
-                    "time":"16:10-16:20",
+                    "time":"16:25-16:30",
                     "topic":"共同宣言",
                     "topicEn":"Core Statements",
                     "speaker":[
@@ -233,7 +219,7 @@
                         }
                     ]
                 },{
-                    "time":"16:20",
+                    "time":"16:30",
                     "topic":"圓滿賦歸",
                     "topicEn":"Closing",
                     "speaker":[

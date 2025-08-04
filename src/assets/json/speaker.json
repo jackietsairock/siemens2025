@@ -2,28 +2,38 @@
     "data":[
         {
             "img":"speaker1.png",
-            "name":"葉芷娟",
-            "title":"財經主播"
+            "name":"張合翕",
+            "nameEn":"Erdal Elver",
+            "title":"台灣西門子總裁暨執行長",
+            "titleEn":"President and CEO, Siemens Taiwan"
         },
         {
             "img":"speaker2.png",
-            "name":"李其展",
-            "title":"財經專家"
+            "name":"梁永煌",
+            "nameEn":"Andy Y.H.Liang",
+            "title":"今周刊發行人",
+            "titleEn":"President,Business Today"
         },
         {
             "img":"speaker3.png",
-            "name":"劉佳倫",
-            "title":"永豐期貨<br>CFTA期貨分析師<br>CSIA證券分析師"
+            "name":"講者姓名",
+            "nameEn":"Erdal Elver",
+            "title":"台灣西門子總裁暨執行長",
+            "titleEn":"President and CEO, Siemens Taiwan"
         },
         {
             "img":"speaker4.png",
-            "name":"林泳光",
-            "title":"街口投信<br>基金經理人"
+            "name":"講者姓名",
+             "nameEn":"Erdal Elver",
+            "title":"台灣西門子總裁暨執行長",
+            "titleEn":"President and CEO, Siemens Taiwan"
         },
         {
             "img":"speaker4.png",
-            "name":"林泳光",
-            "title":"街口投信<br>基金經理人"
+            "name":"講者姓名",
+            "nameEn":"Erdal Elver",
+            "title":"台灣西門子總裁暨執行長",
+            "titleEn":"President and CEO, Siemens Taiwan"
         }
     ]
 }
