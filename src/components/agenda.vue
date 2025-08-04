@@ -45,7 +45,7 @@
                         </div>
                         <div class="speaker_area flex flex-col w-full gap-3">
                             <div v-for="(item ,idx2) in item.speaker" :key="idx2" class="speaker_box flex flex-col text-md w-full lg:text-xl" style="color: #4F4D4D;">
-                                <div v-if="idx2" :class="[idx1 === 9 || idx1 === 10 ? 'label_dot pl-5 relative' : '']">
+                                <div :class="[idx1 === 9 || idx1 === 10 ? 'label_dot pl-5 relative' : '']">
                                     <span v-html="item.speakerTitle"></span>
                                     <span class="whitespace-nowrap ml-1 font-bold" style="color: #787df3;">{{item.speakerName}}</span>
                                 </div>
