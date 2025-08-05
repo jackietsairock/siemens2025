@@ -84,8 +84,6 @@
 
     .agenda_table{
         border-radius: 30px;
-        background: #E8E8E8;
-        background: linear-gradient(-35deg,rgba(232, 232, 232, 1) 0%, rgba(255, 255, 255, 1) 100%);
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     }
 
