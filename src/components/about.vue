@@ -39,13 +39,13 @@
         <Title :infoData="infoData" />
         <div class="intro_box max-w-[1200px] py-10 px-10 sm:px-20 mx-5 xl:mx-auto" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="intro_text intro_text1">
-                <p class="">{{infoData.text[0]}}</p>
+                <p class="" v-html="infoData.text[0]"></p>
             </div>
             <div class="intro_text intro_text1">
-                <p class="">{{infoData.text[1]}}</p>
+                <p class="" v-html="infoData.text[1]"></p>
             </div>
             <div class="intro_text intro_text1">
-                <p class="">{{infoData.text[2]}}</p>
+                <p class="" v-html="infoData.text[2]"></p>
             </div>
         </div>
     </div>
@@ -68,6 +68,11 @@
     }
     .intro_text p{
         color:#3b4754;
+    }
+
+    .intro_text p:deep(span){
+        color: #5e74f3 !important;
+        font-weight: 600;
     }
     
     // .intro_text3.pc :deep(br){
