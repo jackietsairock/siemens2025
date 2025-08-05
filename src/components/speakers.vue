@@ -1,11 +1,13 @@
 <script setup>
-import Title from './Title.vue'
+import Title from './title.vue'
 import { ref, onMounted, onUnmounted } from 'vue'
 import { Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { getWindowWidth } from '../utils/utils'
 import 'swiper/css'
 import 'swiper/css/navigation'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 defineProps({
   speakers: Array,
@@ -22,6 +24,7 @@ function handleResize() {
 }
 
 onMounted(() => {
+    AOS.init()
     handleResize();
     window.addEventListener('resize', handleResize);
 });
@@ -36,7 +39,7 @@ const modules = [Navigation]
 <template>
   <div class="content_wrap">
     <Title :infoData="infoData" />
-    <div class="speaker_box relative max-w-[1366px] p-18 mx-auto flex flex-col flex-wrap items-center justify-center gap-[55px] sm:flex-row sm:items-start">
+    <div class="speaker_box relative max-w-[1366px] p-18 mx-auto flex flex-col flex-wrap items-center justify-center gap-[55px] sm:flex-row sm:items-start" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
       <div class="absolute flex justify-between items-center h-[60%] w-[95%] sm:w-full mb-4">
         <button id="custom-prev" class="swiper-arrow swiper-button-prev-custom w-10 h-10"><img src="/arrow_left.png" alt="arrow_left" /></button>
         <button id="custom-next" class="swiper-arrow swiper-button-next-custom w-10 h-10"><img src="/arrow_right.png" alt="arrow_right" /></button>

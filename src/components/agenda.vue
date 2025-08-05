@@ -1,22 +1,30 @@
 <script setup>
-  import Title from './Title.vue'
+    import Title from './title.vue'
+    import { onMounted } from 'vue'
 
-  defineProps({
-    infoData: Object
-  });
+    import AOS from 'aos'
+    import 'aos/dist/aos.css'
+
+    defineProps({
+        infoData: Object
+    });
+
+    onMounted(() => {
+        AOS.init()
+    });
 
 </script>
 
 <template>
     <div class="content_wrap relative hidden">
         <Title :infoData="infoData" />
-        <div class="agenda_box max-w-[1366px] py-10 px-5 sm:px-10 mx-5 xl:mx-auto">
+        <div class="agenda_box max-w-[1366px] py-10 px-5 sm:px-10 mx-5 xl:mx-auto" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="event_info_box flex flex-col font-bold w-fit mx-auto mb-8 gap-8 sm:gap-5">
                <div class="event_info_item flex flex-col gap-2 sm:gap-5 lg:flex-row">
                     <div class="title_box h-fit w-fit block rounded-lg font-bold py-1 px-3" style="background-color: #5e74f3;">
                         <p class="text-white text-2xl lg:text-4xl">{{infoData.dateTimeTitle}}</p>
                     </div>
-                    <div class="text_box flex flex-col items-start gap-1 ml-10 lg:flex-row lg:items-baseline lg:gap-5 lg:ml-0">
+                    <div class="text_box flex flex-col items-start gap-1 ml-0 lg:flex-row lg:items-baseline lg:gap-5 lg:ml-0">
                         <p class="text-2xl lg:text-4xl" style="color: #5e74f3;">{{infoData.date}}</p>
                         <p class="text-stone-700 text-2xl lg:text-4xl">{{infoData.time}}</p>
                         <p class="text-stone-700 text-xl lg:text-2xl">{{infoData.dataTimeInfo}}</p>
@@ -26,7 +34,7 @@
                     <div class="title_box h-fit w-fit block rounded-lg font-bold py-1 px-3" style="background-color: #5e74f3;">
                         <p class="text-white text-2xl lg:text-4xl">{{infoData.locationTitle}}</p>
                     </div>
-                    <div class="text_box flex flex-col items-start gap-1 ml-10 lg:items-baseline lg:gap-2 lg:ml-0">
+                    <div class="text_box flex flex-col items-start gap-1 ml-0 lg:items-baseline lg:gap-2 lg:ml-0">
                         <p class="text-stone-700 text-2xl lg:text-4xl">{{infoData.location}}</p>
                         <p class="text-stone-700 text-xl lg:text-2xl">{{infoData.locationInfo}}</p>
                     </div>

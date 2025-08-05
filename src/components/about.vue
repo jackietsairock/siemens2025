@@ -2,9 +2,12 @@
 
     import { ref, onMounted, onUnmounted } from 'vue'
     
-    import Title from './Title.vue'
+    import Title from './title.vue'
 
     import { getWindowWidth } from '../utils/utils'
+
+    import AOS from 'aos'
+    import 'aos/dist/aos.css'
     
 
     defineProps(
@@ -20,6 +23,7 @@
     }
 
     onMounted(() => {
+        AOS.init()
         window.addEventListener('resize', handleResize)
     });
 
@@ -33,7 +37,7 @@
 <template>
     <div class="content_wrap">
         <Title :infoData="infoData" />
-        <div class="intro_box max-w-[1200px] py-10 px-10 sm:px-20 mx-5 xl:mx-auto">
+        <div class="intro_box max-w-[1200px] py-10 px-10 sm:px-20 mx-5 xl:mx-auto" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div class="intro_text intro_text1">
                 <p class="">{{infoData.text[0]}}</p>
             </div>

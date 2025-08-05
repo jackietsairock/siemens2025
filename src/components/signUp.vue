@@ -1,11 +1,18 @@
 <script setup>
-    import { ref } from 'vue'
+    import { ref,onMounted } from 'vue'
 
-  import Title from './Title.vue'
+    import AOS from 'aos'
+    import 'aos/dist/aos.css'
+
+  import Title from './title.vue'
 
   defineProps({
     infoData: Object
   });
+
+   onMounted(() => {
+        AOS.init()
+    });
 
   // 建立表單資料物件
     const form = ref({
@@ -99,7 +106,7 @@
 <template>
     <div class="content_wrap">
         <Title :infoData="infoData" />
-        <div class="signUp_box max-w-[1200px] p-10 mx-auto bg-white rounded-lg shadow-lg">
+        <div class="signUp_box max-w-[1200px] p-10 mx-auto bg-white rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <form class="flex flex-col gap-6 w-full" @submit.prevent="checkVal">
                 <div v-for="(item, idx) in infoData.label" :key="idx" class="flex flex-col w-full sm:flex-row items-center gap-2">
                     <label class="w-full text-black text-lg shrink-0 form_label sm:w-24">{{ item.tagName }}</label>
