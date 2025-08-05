@@ -55,11 +55,13 @@
     }
     .intro_text{
         font-size: 1.8rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2.5rem;
         letter-spacing: 8px;
         text-align: justify;
     }
-
+    .intro_text:last-child{
+        margin-bottom: 0;
+    }
     .intro_text p{
         color:#3b4754;
     }
@@ -78,7 +80,7 @@
         .intro_text{
             font-size: 1.6rem;
             margin-bottom: 1.2rem;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
         }
         
     }

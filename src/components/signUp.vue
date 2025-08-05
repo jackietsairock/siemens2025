@@ -137,4 +137,8 @@
         margin-left: 0.25rem;
         margin-right: 0.25rem;
     }
+    button:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
 </style>

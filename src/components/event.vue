@@ -8,68 +8,56 @@
 </script>
 
 <template>
-    <div class="content_wrap">
+    <div class="content_wrap z-10 ">
         <Title :infoData="infoData" />
-        <div class="event_box max-w-[1366px] p-10 mx-auto mb-0 sm:mb-8">
-            <div class="video_wrap w-full max-w-[800px] mx-auto aspect-video rounded-lg overflow-hidden shadow-lg">
-                <iframe
-                width="100%"
-                height="100%"
-                :src="infoData.youtube_src"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-                ></iframe>
-            </div>
-        </div>
-        <div class="article_wrap flex flex-col gap-5 max-w-[1200px] mx-auto mb-20 p-10 lg:flex-row">
-            <div class="article_img_box w-full lg:w-[25%]">
-                <img :src="infoData.article.img" alt="event_img" class="w-full h-full object-cover">
-            </div>
-            <div class="article_text_box flex flex-col text-justify w-full lg:w-[75%]">
-                <a :href="infoData.article.url" class="block text-xl font-bold text-[#231815] pb-5 mb-5 sm:text-3xl" v-html="infoData.article.title"></a>
-                <a :href="infoData.article.url" class="text-md font-bold text-[#231815] mb-5 sm:text-xl">{{infoData.article.describe}}</a>
-                <a :href="infoData.article.url" class="text-white py-2 px-5 w-fit ml-auto hover:opacity-80 lg:ml-0 mx-auto" style="background-color: #602C88;">
-                    閱讀更多
-                </a>
-            </div>
-        </div>
-        <div class="logo_wrap flex flex-row gap-8 w-fit mx-auto px-8 sm:gap-10 sm:px-0">
-            <div class="btnet_logo_box w-[110px] sm:w-[125px]">
-                <img :src="infoData.logo[0].img" alt="event_logo" class="w-full">
-            </div>
-            <div class="sp_logo_box w-[180px] sm:w-[210px]">
-                <img :src="infoData.logo[1].img" alt="event_logo" class="w-full">
-            </div>
+        <div class="event_box max-w-[1366px]p-10 mx-auto mb-0 flex flex-row items-center justify-center gap-10 sm:mb-8 sm:flex-col">
+            <a class="article_box relative block w-full sm:w-[33.3333%]">
+                <div class="mask absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-10 bg-[rgba(0,0,0,.5)]">
+                    <div class="more_box w-fit h-fit px-3 py-2 border-2 border-white bg-[rgba(0,0,0,.8)]">
+                        <p class="text-white text-xl sm:text-2xl">了解更多</p>
+                    </div>
+                </div>
+                <img src="src/assets/image/industry_img.png" class="industry_img w-full" alt="industry_img" />
+            </a>
         </div>
     </div>
-
+    <img src="src/assets/image/infinity_opacity.png" class="infinity_opacity infinity_opacity2 absolute w-[80%]" alt="infinity_opacity" />
 </template>
 
 <style scoped>
-    .article_text_box{
-        letter-spacing: 2px;
-    }
-
-    .article_text_box a:nth-child(1){
-        border-bottom: 1px solid #602C88;
-    }
-
-    .article_text_box a:hover:nth-child(1){
-        color:#602C88;
-    }
-
-    .article_text_box a:nth-child(2){
-        line-height: 2rem;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;   /* 限制顯示3行 */
-        -webkit-box-orient: vertical;
+    .article_box{
+        border-radius: 20px;
         overflow: hidden;
-        text-overflow: ellipsis;
     }
 
-    .article_text_box a:hover:nth-child(2){
-        color:#602C88;
+    .mask{
+       opacity: 0;
+    }
+
+    .article_box:hover{
+        cursor: pointer;
+    }
+
+    .article_box:hover .mask{
+        opacity: 1;
+        transition: .3s;
+    }
+
+    .more_box{
+        margin-top: 5rem;
+    }
+
+    .article_box:hover .more_box{
+        margin-top: 0;
+        transition: .5s;
+    }
+
+    .infinity_opacity{
+        z-index: 1;
+        right: -18rem;
+    }
+
+    .infinity_opacity2{
+        bottom: -10rem;
     }
 </style>

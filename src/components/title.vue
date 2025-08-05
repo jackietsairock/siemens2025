@@ -9,9 +9,9 @@
 <template>
     <div class="title_area w-full text-center pb-[35px]">
         <div class="title_box w-fit py-5 mx-auto">
-            <h1 :style="{ color: infoData.titleColor}" class="title text-5xl sm:text-6xl">{{ infoData.title }}</h1>
-            <div class="title_line" :style="{ borderTop: `1px solid ${infoData.titleEnColor}` }"></div>
-            <h2 :style="{ color: infoData.titleEnColor}" class="title_en text-3xl sm:text-4xl">{{ infoData.titleEn }}</h2>
+            <h1 :style="{ color: infoData.titleColor}" :class="['title', infoData.title !== '共同主辦單位' ? 'text-5xl sm:text-6xl' : 'text-3xl sm:text-4xl']">{{ infoData.title }}</h1>
+            <div v-if="infoData.title!=='共同主辦單位'" class="title_line" :style="{ borderTop: `1px solid ${infoData.titleEnColor}` }"></div>
+            <h2 v-if="infoData.title!=='共同主辦單位'" :style="{ color: infoData.titleEnColor}" class="title_en text-3xl sm:text-4xl">{{ infoData.titleEn }}</h2>
         </div>
     </div>
 </template>

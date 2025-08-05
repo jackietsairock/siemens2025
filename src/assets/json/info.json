@@ -341,21 +341,29 @@
             "titleColor":"#3b4754",
             "titleEn":"NEWS",
             "titleEnColor":"#5e74f3",
-            "youtube_src":"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBToday%2Fvideos%2F883193827309415%2F&show_text=false&width=560&t=0",
-            "article":{
+            "articles":[
+                {
                 "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/168078/大圖 (1).jpg_1140x855.jpg",
                 "title":"超前布局四大關鍵力<br>掌握二O二五全球原物料投資致勝契機",
                 "describe":"美國總統川普效應啟動交易行情，帶動美元強勢走高，通膨壓力推升美國國債殖利率，資金流動揭示市場洶湧暗潮；地緣政治衝突下，原油減產帶來短期價格支撐；而農產品黃豆因種植成本攀升與耕地減少，築底後需求前景樂觀；銅身為全球工業核心金屬原料，受惠於清潔能源建設，成最有潛力的投資焦點。永豐期貨「二○二五投資新契機」論壇聚焦關鍵趨勢，邀請三位專家破解通膨風險，掌握原物料市場致勝策略，助力投資者迎接新年財富機會。",
                 "url":"https://www.businesstoday.com.tw/article/category/183012/post/202412240019/?utm_source=businesstoday&utm_medium=search&utm_campaign=article"
-            },
-            "logo":[
-                {
-                    "img":"btnet_logo.png"
                 },
                 {
-                    "img":"sp_logo.png"
+                "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/168078/大圖 (1).jpg_1140x855.jpg",
+                "title":"超前布局四大關鍵力<br>掌握二O二五全球原物料投資致勝契機",
+                "describe":"美國總統川普效應啟動交易行情，帶動美元強勢走高，通膨壓力推升美國國債殖利率，資金流動揭示市場洶湧暗潮；地緣政治衝突下，原油減產帶來短期價格支撐；而農產品黃豆因種植成本攀升與耕地減少，築底後需求前景樂觀；銅身為全球工業核心金屬原料，受惠於清潔能源建設，成最有潛力的投資焦點。永豐期貨「二○二五投資新契機」論壇聚焦關鍵趨勢，邀請三位專家破解通膨風險，掌握原物料市場致勝策略，助力投資者迎接新年財富機會。",
+                "url":"https://www.businesstoday.com.tw/article/category/183012/post/202412240019/?utm_source=businesstoday&utm_medium=search&utm_campaign=article"
+                },
+                {
+                "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/168078/大圖 (1).jpg_1140x855.jpg",
+                "title":"超前布局四大關鍵力<br>掌握二O二五全球原物料投資致勝契機",
+                "describe":"美國總統川普效應啟動交易行情，帶動美元強勢走高，通膨壓力推升美國國債殖利率，資金流動揭示市場洶湧暗潮；地緣政治衝突下，原油減產帶來短期價格支撐；而農產品黃豆因種植成本攀升與耕地減少，築底後需求前景樂觀；銅身為全球工業核心金屬原料，受惠於清潔能源建設，成最有潛力的投資焦點。永豐期貨「二○二五投資新契機」論壇聚焦關鍵趨勢，邀請三位專家破解通膨風險，掌握原物料市場致勝策略，助力投資者迎接新年財富機會。",
+                "url":"https://www.businesstoday.com.tw/article/category/183012/post/202412240019/?utm_source=businesstoday&utm_medium=search&utm_campaign=article"
                 }
             ]
+        },{
+            "title":"共同主辦單位",
+            "titleColor":"#3b4754"
         }
     ],
     "footer":{

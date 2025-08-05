@@ -34,6 +34,7 @@ onUnmounted(() => {
 <style scoped>
 button {
   cursor: pointer;
+  border: 2px solid #fff;
 }
 
 .arrow_up{

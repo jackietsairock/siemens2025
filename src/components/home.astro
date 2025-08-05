@@ -7,6 +7,7 @@ import Speakers from './speakers.vue';
 import Agenda from './agenda.vue';
 import SignUp from './signUp.vue';
 import Event from './event.vue';
+import Logo from './logo.vue';
 import Gototop from './Gototop.vue';
 import SignUpFiexd from './SignUpFiexd.vue';
 
@@ -36,6 +37,9 @@ import '../styles/global.css';
 		</section>
 		<section id="event" class="relative w-full overflow-hidden">
 			<Event infoData={infoData.content[4]} client:visible />
+		</section>
+		<section id="logo" class="relative w-full overflow-hidden">
+			<Logo infoData={infoData.content[5]} client:visible />
 		</section>
 		<section id="footer" class="relative w-full overflow-hidden">
 			<Footer footerInfo={infoData.footer} client:visible />
@@ -86,6 +90,12 @@ import '../styles/global.css';
 	#event{
 		background: url('../assets/image/industry_bg.png') center center no-repeat;
 		background-size: cover;
+        border-top: 3px solid #29abe2;
+        border-bottom: 3px solid #29abe2
+	}
+
+	#logo{
+		background-color: #fff;
 	}
 
 	@media screen and (max-width: 1024px) {
