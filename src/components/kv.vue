@@ -49,7 +49,7 @@
                 <img class="kv_logo kv_logo4" src="/logo4.svg" alt="kv_logo4" />
             </div>
 
-            <img class="kv_infinity" src="/kv_infinity.svg" alt="kv_infinity" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000" />
+            <img class="kv_infinity" src="/kv_infinity.svg" alt="kv_infinity" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" data-aos-offset="0"/>
         </div>
     </div>
 </template>

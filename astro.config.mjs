@@ -10,5 +10,16 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      host: true,
+      port: 5173,
+      allowedHosts: ['2cc0d0417a48.ngrok-free.app'],
+      hmr: {
+        host: '2cc0d0417a48.ngrok-free.app',
+        protocol: 'wss',
+        clientPort: 443
+      }
+    }
   },
+  
 });

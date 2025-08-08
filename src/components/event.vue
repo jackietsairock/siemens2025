@@ -98,7 +98,7 @@
 
     @media screen and (max-width: 768px) {
         .article_box{
-            height: 17rem;
+            height: 13rem;
         }
     }
 
