@@ -243,17 +243,17 @@
                     "placeholder":"輸入姓名",
                     "type": "input"
                 },{
-                    "tagName":"行動電話",
-                    "inputName":"Mobile",
-                    "placeholder":"0912345678",
-                    "type": "input"
-                },{
                     "tagName":"E-mail",
                     "inputName":"Email",
                     "placeholder":"",
                     "type": "input"
                 },{
-                    "tagName":"公司單位",
+                    "tagName":"電話",
+                    "inputName":"Mobile",
+                    "placeholder":"0912345678",
+                    "type": "input"
+                },{
+                    "tagName":"公司",
                     "inputName":"Company_name",
                     "placeholder":"",
                     "type": "input"
@@ -266,59 +266,41 @@
                             "optionName":"請選擇",
                             "value":""
                         },{
-                            "optionName":"農、林、漁、牧業",
-                            "value":"農、林、漁、牧業"
+                            "optionName":"軍警",
+                            "value":"軍警"
                         },{
-                            "optionName":"礦業及土石採取業",
-                            "value":"礦業及土石採取業"
+                            "optionName":"公部門",
+                            "value":"公部門"
                         },{
-                            "optionName":"製造業",
-                            "value":"製造業"
+                            "optionName":"教育文化",
+                            "value":"教育文化"
                         },{
-                            "optionName":"電力及燃氣供應業",
-                            "value":"電力及燃氣供應業"
+                            "optionName":"金融貿易",
+                            "value":"金融貿易"
                         },{
-                            "optionName":"營造業",
-                            "value":"營造業"
+                            "optionName":"流通零售",
+                            "value":"流通零售"
                         },{
-                            "optionName":"批發及零售業",
-                            "value":"批發及零售業"
+                            "optionName":"醫療生技",
+                            "value":"醫療生技"
                         },{
-                            "optionName":"運輸及倉儲業",
-                            "value":"運輸及倉儲業"
+                            "optionName":"製造",
+                            "value":"製造"
                         },{
-                            "optionName":"住宿及餐飲業",
-                            "value":"住宿及餐飲業"
+                            "optionName":"服務",
+                            "value":"服務"
                         },{
-                            "optionName":"資訊及通訊傳播業",
-                            "value":"資訊及通訊傳播業"
+                            "optionName":"自營商",
+                            "value":"自營商"
                         },{
-                            "optionName":"金融及保險業",
-                            "value":"金融及保險業"
+                            "optionName":"學生",
+                            "value":"學生"
                         },{
-                            "optionName":"不動產業",
-                            "value":"不動產業"
+                            "optionName":"家管",
+                            "value":"家管"
                         },{
-                            "optionName":"專業、科學及技術服務業",
-                            "value":"專業、科學及技術服務業"
-                        },{
-                            "optionName":"支援服務業",
-                            "value":"支援服務業"
-                        },{
-                            "optionName":"公共行政及國防；強制性社會安全",
-                            "value":"公共行政及國防；強制性社會安全"
-                        },{
-                            "optionName":"教育服務業",
-                            "value":"教育服務業"
-                        },{
-                            "optionName":"醫療保健及社會工作服務業",
-                            "value":"醫療保健及社會工作服務業"
-                        },{
-                            "optionName":"藝術、娛樂及休閒服務業",
-                            "value":"藝術、娛樂及休閒服務業"
-                        },{
-                            "optionName":"其他服務業",
-                            "value":"其他服務業"
+                            "optionName":"退休",
+                            "value":"退休"
                         }
                     ]
                 },{

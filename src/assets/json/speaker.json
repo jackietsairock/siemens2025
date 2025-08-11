@@ -16,24 +16,24 @@
         },
         {
             "img":"speaker3.png",
-            "name":"講者姓名",
-            "nameEn":"Erdal Elver",
-            "title":"台灣西門子總裁暨執行長",
-            "titleEn":"President and CEO, Siemens Taiwan"
+            "name":"Michael Kretschmer",
+            "nameEn":"",
+            "title":"德國薩克森邦邦長",
+            "titleEn":"Minister-President of the Free State of Saxony"
         },
         {
             "img":"speaker4.png",
-            "name":"講者姓名",
-             "nameEn":"Erdal Elver",
-            "title":"台灣西門子總裁暨執行長",
-            "titleEn":"President and CEO, Siemens Taiwan"
+            "name":"林旭瑩",
+            "nameEn":"Christie Lin",
+            "title":"鴻海科技集團董事長辦公室<br>智慧城市平台資深處長",
+            "titleEn":"Senior Director, Foxconn®"
         },
         {
-            "img":"speaker4.png",
-            "name":"講者姓名",
-            "nameEn":"Erdal Elver",
-            "title":"台灣西門子總裁暨執行長",
-            "titleEn":"President and CEO, Siemens Taiwan"
+            "img":"speaker5.png",
+            "name":"戴英傑",
+            "nameEn":"Jim, Tai Ying-Chieh",
+            "title":"瑞曼迪斯力麗企業(股)公司總經理",
+            "titleEn":"General Manager, REMONDIS Taiwan Co, Ltd."
         }
     ]
 }
