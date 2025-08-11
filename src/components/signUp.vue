@@ -19,8 +19,6 @@
         Name: '',
         Mobile: '',
         Email: '',
-        Age: '',
-        Gender: '',
         Company_name: '',
         Job_title: '',
         Agree: false
@@ -46,12 +44,6 @@
             return;
         } else if (!form.value.Email) {
             alert('請輸入Email');
-            return;
-        } else if (!form.value.Age) {
-            alert('請輸入年齡');
-            return;
-        } else if (!form.value.Gender) {
-            alert('請選擇性別');
             return;
         } else if (!emailRegex.test(form.value.Email)) {
             alert('請填寫正確電子郵件');
