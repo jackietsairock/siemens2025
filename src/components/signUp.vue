@@ -36,20 +36,20 @@
         } else if (!nameRegex.test(form.value.Name)) {
             alert('姓名長度請輸入2~30字');
             return;
-        } else if (!form.value.Mobile) {
-            alert('請輸入手機');
-            return;
-        } else if (!mobileRegex.test(form.value.Mobile)) {
-            alert('請輸入包含09開頭之連續10碼阿拉伯數字');
-            return;
         } else if (!form.value.Email) {
             alert('請輸入Email');
             return;
         } else if (!emailRegex.test(form.value.Email)) {
             alert('請填寫正確電子郵件');
             return;
+        } else if (!form.value.Mobile) {
+            alert('請輸入手機');
+            return;
+        } else if (!mobileRegex.test(form.value.Mobile)) {
+            alert('請輸入包含09開頭之連續10碼阿拉伯數字');
+            return;
         } else if (!form.value.Company_name) {
-            alert('請輸入公司');
+            alert('請輸入產業別');
             return;
         } else if (!form.value.Job_title) {
             alert('請輸入職稱');
@@ -66,8 +66,8 @@
     function sign_up() {
         const data = new FormData();
 
-        // const url = 'https://events-johnny.businesstoday.com.tw/backend/spfcommodity_2025/sign_up?v=' + new Date().getTime();
-        const url = 'https://events.businesstoday.com.tw/backend/spfcommodity_2025/sign_up?v=' + new Date().getTime();
+        // const url = 'https://events.businesstoday.com.tw/backend/siemens2025/sign_up?v=' + new Date().getTime();
+        const url = 'https://events.businesstoday.com.tw/backend/siemens2025/sign_up?v=' + new Date().getTime();
 
         for (const key in form.value) {
             data.append(key, form.value[key]);
@@ -84,7 +84,7 @@
             if (response['bIsSuccess'] == "0") {
                 alert(response['sError'])
             } else {
-                alert("報名成功，我們將於活動前三天發送報到簡訊給您，謝謝！")
+                alert("本會議為審核制，後續將以簡訊、e-mail通知您是否報名成功，如未收到代表未報名成功。")
                 location.href = "./index.html"
             }
             })
