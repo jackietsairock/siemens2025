@@ -15,7 +15,7 @@
 </script>
 
 <template>
-    <div class="title_area w-full text-center pb-[35px]" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+    <div class="title_area w-full text-center pb-[35px]" :data-aos="infoData.title!=='共同主辦單位' ? 'fade-up' : ''" data-aos-delay="500" data-aos-duration="1000">
         <div class="title_box w-fit py-5 mx-auto">
             <h1 :style="{ color: infoData.titleColor}" :class="['title', infoData.title !== '共同主辦單位' ? 'text-5xl sm:text-6xl' : 'text-3xl sm:text-4xl']">{{ infoData.title }}</h1>
             <div v-if="infoData.title!=='共同主辦單位'" class="title_line" :style="{ borderTop: `1px solid ${infoData.titleEnColor}` }"></div>
