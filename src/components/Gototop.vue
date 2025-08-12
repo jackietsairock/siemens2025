@@ -2,6 +2,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const show = ref(false)
+const withBase = (p) => (p?.startsWith('/') ? import.meta.env.BASE_URL + p.slice(1) : p)
 
 function handleScroll() {
   show.value = window.scrollY > 200
@@ -27,7 +28,7 @@ onUnmounted(() => {
     class="fixed bottom-8 w-[35px] h-[35px] right-[28px] z-50 bg-[#c9d3ff] rounded-full shadow-lg text-xl font-bold hover:bg-[#8fe5ffcc] transition sm:right-[30px] sm:w-[45px] sm:h-[45px]"
     aria-label="回到頂部"
   >
-    <img src="/arrow_up.png" alt="arrow_up" class="arrow_up" />
+    <img :src="withBase('arrow_up.png')" alt="arrow_up" class="arrow_up" />
   </button>
 </template>
 

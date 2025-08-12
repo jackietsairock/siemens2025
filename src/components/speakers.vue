@@ -16,6 +16,8 @@ defineProps({
 
 const windowWidth = ref(0)
 
+const withBase = (p) => (p?.startsWith('/') ? import.meta.env.BASE_URL + p.slice(1) : p)
+
 function handleResize() {
     windowWidth.value = getWindowWidth();
 
@@ -41,8 +43,8 @@ const modules = [Navigation]
     <Title :infoData="infoData" />
     <div class="speaker_box relative max-w-[1366px] p-18 mx-auto flex flex-col flex-wrap items-center justify-center gap-[55px] sm:flex-row sm:items-start" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
       <div class="absolute flex justify-between items-center h-[60%] w-[95%] sm:w-full mb-4">
-        <button id="custom-prev" class="swiper-arrow swiper-button-prev-custom w-10 h-10"><img src="/arrow_left.png" alt="arrow_left" /></button>
-        <button id="custom-next" class="swiper-arrow swiper-button-next-custom w-10 h-10"><img src="/arrow_right.png" alt="arrow_right" /></button>
+        <button id="custom-prev" class="swiper-arrow swiper-button-prev-custom w-10 h-10"><img :src="withBase('arrow_left.png')" alt="arrow_left" /></button>
+        <button id="custom-next" class="swiper-arrow swiper-button-next-custom w-10 h-10"><img :src="withBase('arrow_right.png')" alt="arrow_right" /></button>
       </div>
       <Swiper
         :slides-per-view="[windowWidth >= 1024 ? 4 : windowWidth >= 768 ? 3 : 1]"

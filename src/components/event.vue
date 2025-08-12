@@ -6,6 +6,8 @@
     import AOS from 'aos'
     import 'aos/dist/aos.css'
 
+    const withBase = (p) => (p?.startsWith('/') ? import.meta.env.BASE_URL + p.slice(1) : p)
+
     defineProps({
         infoData: Object
     });
@@ -26,11 +28,11 @@
                         <p class="text-white text-xl sm:text-2xl">了解更多</p>
                     </div>
                 </div>
-                <img :src="item.img" class="industry_img" alt="industry_img" />
+                <img :src="withBase(item.img)" class="industry_img" alt="industry_img" />
             </a>
         </div>
     </div>
-    <img src="src/assets/image/infinity_opacity.png" class="infinity_opacity infinity_opacity2 absolute w-[80%]" alt="infinity_opacity" />
+    <img :src="withBase('infinity_opacity.png')" class="infinity_opacity infinity_opacity2 absolute w-[50%]" alt="infinity_opacity" />
 </template>
 
 <style scoped>

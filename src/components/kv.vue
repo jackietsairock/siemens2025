@@ -7,6 +7,7 @@
 
     const windowWidth = ref(0);
     const setDivResize = ref({});
+    const withBase = (p) => (p?.startsWith('/') ? import.meta.env.BASE_URL + p.slice(1) : p)
 
     function handleResize() {
         windowWidth.value = getWindowWidth();
@@ -37,19 +38,19 @@
             <img class="kv_big_title" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" src="/kv_big_title.png" alt="kv_big_title">
             <img class="kv_right_light" src="/kv_right_light.png" alt="kv_right_light"> -->
 
-            <img class="kv_smart_logo" src="/kv_smart_logo.svg" alt="kv_smart_logo" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
-            <img class="kv_title" src="/kv_title.svg" alt="kv_title" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
-            <img class="kv_subtitle" src="/kv_subtitle.svg" alt="kv_subtitle" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
+            <img class="kv_smart_logo" :src="withBase('kv_smart_logo.svg')" alt="kv_smart_logo" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
+            <img class="kv_title" :src="withBase('kv_title.svg')" alt="kv_title" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
+            <img class="kv_subtitle" :src="withBase('kv_subtitle.svg')" alt="kv_subtitle" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
 
             <div class="kv_logo_area" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
-                <img class="kv_logo kv_logo5" src="/logo5.svg" alt="kv_logo5" />
-                <img class="kv_logo kv_logo2" src="/logo2.svg" alt="kv_logo2" />
-                <img class="kv_logo kv_logo1" src="/logo1.svg" alt="kv_logo1" />
-                <img class="kv_logo kv_logo3" src="/logo3.svg" alt="kv_logo3" />
-                <img class="kv_logo kv_logo4" src="/logo4.svg" alt="kv_logo4" />
+                <img class="kv_logo kv_logo5" :src="withBase('logo5.svg')" alt="kv_logo5" />
+                <img class="kv_logo kv_logo2" :src="withBase('logo2.svg')" alt="kv_logo2" />
+                <img class="kv_logo kv_logo1" :src="withBase('logo1.svg')" alt="kv_logo1" />
+                <img class="kv_logo kv_logo3" :src="withBase('logo3.svg')" alt="kv_logo3" />
+                <img class="kv_logo kv_logo4" :src="withBase('logo4.svg')" alt="kv_logo4" />
             </div>
 
-            <img class="kv_infinity" src="/kv_infinity.svg" alt="kv_infinity" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" data-aos-offset="0"/>
+            <img class="kv_infinity" :src="withBase('kv_infinity.svg')" alt="kv_infinity" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" data-aos-offset="0"/>
         </div>
     </div>
 </template>

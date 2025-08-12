@@ -2,6 +2,8 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const show = ref(false);
+const withBase = (p) => (p?.startsWith('/') ? import.meta.env.BASE_URL + p.slice(1) : p)
+
 
 function handleScroll() {
   show.value = window.scrollY > 200
@@ -30,7 +32,7 @@ onUnmounted(() => {
     class="fixed bottom-25 right-5 z-52 hover:opacity-80"
     aria-label="到報名頁面"
   >
-    <img class="w-[50px] sm:w-[65px]" src="/sign_up_fiexd_btn.png" alt="sign_up_fiexd_btn">
+    <img class="w-[50px] sm:w-[65px]" :src="withBase('sign_up_fiexd_btn.png')" alt="sign_up_fiexd_btn">
   </button>
 </template>
 

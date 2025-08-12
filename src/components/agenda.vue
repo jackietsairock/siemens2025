@@ -5,6 +5,8 @@
     import AOS from 'aos'
     import 'aos/dist/aos.css'
 
+    const withBase = (p) => (p?.startsWith('/') ? import.meta.env.BASE_URL + p.slice(1) : p)
+
     defineProps({
         infoData: Object
     });
@@ -66,8 +68,8 @@
                 </div>
             </div>
         </div>
-        <img src="src/assets/image/infinity_opacity.png" class="infinity_opacity infinity_opacity1 absolute w-[80%]" alt="infinity_opacity" />
-        <img src="src/assets/image/infinity_opacity.png" class="infinity_opacity infinity_opacity2 absolute w-[80%]" alt="infinity_opacity" />
+        <img :src="withBase('infinity_opacity.png')" class="infinity_opacity infinity_opacity1 absolute w-[70%]" alt="infinity_opacity" />
+        <img :src="withBase('infinity_opacity.png')" class="infinity_opacity infinity_opacity2 absolute w-[70%]" alt="infinity_opacity" />
     </div>
 </template>
 
@@ -104,7 +106,7 @@
 
     .infinity_opacity{
         z-index: 1;
-        right: -18rem;
+        right: -33rem;
     }
 
     .infinity_opacity1{

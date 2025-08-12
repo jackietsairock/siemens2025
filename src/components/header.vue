@@ -13,6 +13,8 @@
         isMenuOpen.value = false;
     }
 
+    const withBase = (p) => (p?.startsWith('/') ? import.meta.env.BASE_URL + p.slice(1) : p)
+
     defineProps(
         {
             menu: Array
@@ -24,7 +26,7 @@
     <header>
         <div class="nav_content_wrap">
             <a href="https://www.businesstoday.com.tw/" class="btnet_logo_box btnet_logo_box1">
-                <img src="/nav_smart_logo.svg" class="btnet_logo1" alt="btnet_logo">
+                <img :src="withBase('nav_smart_logo.svg')" alt="nav_smart_logo">
             </a>
 
             <nav :class="{ open: isMenuOpen }">
