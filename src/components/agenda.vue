@@ -21,26 +21,66 @@
     <div class="content_wrap relative hidden">
         <Title :infoData="infoData" />
         <div class="agenda_box max-w-[1366px] py-10 px-5 sm:px-10 mx-5 xl:mx-auto" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-            <div class="event_info_box flex flex-col font-bold w-fit mx-auto mb-8 gap-8 sm:gap-5">
-               <div class="event_info_item flex flex-col gap-2 sm:gap-5 lg:flex-row">
+            <div class="event_info_box flex flex-col font-bold w-fit mx-auto mb-8 gap-2">
+
+               <div class="event_info_item flex flex-col gap-2 sm:gap-5 2xl:flex-row">
                     <div class="title_box h-fit w-fit block rounded-lg font-bold py-1 px-3" style="background-color: #5e74f3;">
-                        <p class="text-white text-2xl lg:text-4xl">{{infoData.dateTimeTitle}}</p>
+                        <p class="text-white text-2xl 2xl:text-4xl">{{infoData.dateTimeTitle}}</p>
                     </div>
-                    <div class="text_box flex flex-col items-start gap-1 ml-0 lg:flex-row lg:items-baseline lg:gap-5 lg:ml-0">
-                        <p class="text-2xl lg:text-4xl" style="color: #5e74f3;">{{infoData.date}}</p>
-                        <p class="text-stone-700 text-2xl lg:text-4xl">{{infoData.time}}</p>
-                        <p class="text-stone-700 text-xl lg:text-2xl">{{infoData.dataTimeInfo}}</p>
+                    <div class="text_box flex flex-col items-start gap-1 ml-0 2xl:flex-row 2xl:items-baseline 2xl:gap-5 2xl:ml-0">
+                        <p class="text-2xl 2xl:text-4xl" style="color: #5e74f3;">{{infoData.date}}</p>
+                        <p class="text-stone-700 text-xl 2xl:text-4xl">{{infoData.time}}</p>
                     </div>
                </div>
-               <div class="event_info_item flex flex-col gap-2 sm:gap-5 lg:flex-row">
-                    <div class="title_box h-fit w-fit block rounded-lg font-bold py-1 px-3" style="background-color: #5e74f3;">
-                        <p class="text-white text-2xl lg:text-4xl">{{infoData.locationTitle}}</p>
-                    </div>
-                    <div class="text_box flex flex-col items-start gap-1 ml-0 lg:items-baseline lg:gap-2 lg:ml-0">
-                        <p class="text-stone-700 text-2xl lg:text-4xl">{{infoData.location}}</p>
-                        <p class="text-stone-700 text-xl lg:text-2xl">{{infoData.locationInfo}}</p>
+               <div class="event_info_item flex flex-col gap-2 mb-8 sm:gap-5 2xl:flex-row 2xl:pl-30">
+                    <div class="text_box flex flex-col items-start gap-1 ml-0 2xl:flex-row 2xl:items-baseline 2xl:gap-5 2xl:ml-0">
+                        <p class="text-stone-500 text-xl 2xl:text-2xl">{{infoData.dateTimeTitleEn}}: {{infoData.dateTimeEn}}</p>
                     </div>
                </div>
+
+               <div class="event_info_item flex flex-col gap-2 sm:gap-5 2xl:flex-row">
+                    <div class="title_box h-fit w-fit block rounded-lg font-bold py-1 px-3" style="background-color: #5e74f3;">
+                        <p class="text-white text-2xl 2xl:text-4xl">{{infoData.locationTitle}}</p>
+                    </div>
+                    <div class="text_box flex flex-col items-start gap-1 ml-0 2xl:items-baseline 2xl:gap-2 2xl:ml-0">
+                        <p class="text-stone-700 text-2xl 2xl:text-4xl">{{infoData.location}}</p>
+                        <p class="text-stone-700 text-xl 2xl:text-2xl">{{infoData.locationInfo}}</p>
+                    </div>
+               </div>
+               <div class="event_info_item flex flex-col gap-2 mb-8 sm:gap-5 2xl:flex-row 2xl:pl-30">
+                    <div class="text_box flex flex-col items-start gap-1 ml-0 2xl:items-baseline 2xl:gap-2 2xl:ml-0">
+                        <p class="text-stone-500 text-xl 2xl:text-2xl">{{infoData.locationTitleEn}}: {{infoData.locationEn}}</p>
+                    </div>
+               </div>
+
+               <div class="event_info_item flex flex-col gap-2 sm:gap-5 2xl:flex-row">
+                    <div class="title_box h-fit w-fit block rounded-lg font-bold py-1 px-3" style="background-color: #5e74f3;">
+                        <p class="text-white text-2xl 2xl:text-4xl">{{infoData.guidingUnitsTitle}}</p>
+                    </div>
+                    <div class="text_box flex flex-col items-start gap-1 ml-0 2xl:items-baseline 2xl:gap-2 2xl:ml-0">
+                        <p class="text-stone-700 text-2xl 2xl:text-4xl">{{infoData.guidingUnits}}</p>
+                    </div>
+               </div>
+               <div class="event_info_item flex flex-col gap-2 mb-8 sm:gap-5 2xl:flex-row 2xl:pl-48">
+                    <div class="text_box flex flex-col items-start gap-1 ml-0 2xl:items-baseline 2xl:gap-2 2xl:ml-0">
+                        <p class="text-stone-500 text-xl 2xl:text-2xl">{{infoData.guidingUnitsTitleEn}}: {{infoData.guidingUnitsEn}}</p>
+                    </div>
+               </div>
+
+               <div class="event_info_item flex flex-col gap-2 sm:gap-5 2xl:flex-row">
+                    <div class="title_box h-fit w-fit block rounded-lg font-bold py-1 px-3" style="background-color: #5e74f3;">
+                        <p class="text-white text-2xl 2xl:text-4xl">{{infoData.CoOrganizersTitle}}</p>
+                    </div>
+                    <div class="text_box flex flex-col items-start gap-1 ml-0 2xl:items-baseline 2xl:gap-2 2xl:ml-0">
+                        <p class="text-stone-700 text-2xl 2xl:text-4xl">{{infoData.CoOrganizers}}</p>
+                    </div>
+               </div>
+               <div class="event_info_item flex flex-col gap-2 sm:gap-5 2xl:flex-row 2xl:pl-48">
+                    <div class="text_box flex flex-col items-start gap-1 ml-0 2xl:items-baseline 2xl:gap-2 2xl:ml-0">
+                        <p class="text-stone-500 text-xl 2xl:text-2xl">{{infoData.CoOrganizersTitleEn}}: {{infoData.CoOrganizersEn}}</p>
+                    </div>
+               </div>
+
             </div>
             <div class="agenda_table flex flex-col bg-white p-6">
                 <div v-for="(item ,idx1) in infoData.agendaInfo" :key="idx1" class="agenda_table_item flex flex-row py-5 gap-3">
@@ -76,6 +116,10 @@
 <style scoped lang="scss">
     .title_box p :deep(br){
         margin-bottom: 1rem;
+    }
+
+    .title_box p{
+        white-space: nowrap;
     }
 
     .agenda_box{
