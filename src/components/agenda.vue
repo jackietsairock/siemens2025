@@ -118,7 +118,7 @@
         margin-bottom: 1rem;
     }
 
-    .title_box p{
+    .event_info_item .title_box p{
         white-space: nowrap;
     }
 
