@@ -96,12 +96,12 @@
                     "speaker":[
                         {
                             "speakerName":"梁永煌",
-                            "speakerNameEN":"Mr. Andy Liang, President of Business Today",
+                            "speakerNameEN":"Andy Liang, President of Business Today",
                             "speakerTitle":"今周刊發行人"
                         },
                         {
                             "speakerName":"張合翕",
-                            "speakerNameEN":"Mr. Frank Grunert, President & CEO, Siemens Taiwan",
+                            "speakerNameEN":"Frank Grunert, President & CEO, Siemens Taiwan",
                             "speakerTitle":"台灣西門子總裁暨執行長"
                         }
                     ]
@@ -112,7 +112,7 @@
                     "speaker":[
                         {
                             "speakerName":"蔣萬安",
-                            "speakerNameEN":"Mr. Wan-an Chiang, Taipei City Mayor, R.O.C (Taiwan)",
+                            "speakerNameEN":"Wan-an Chiang, Taipei City Mayor, R.O.C (Taiwan)",
                             "speakerTitle":"台北市市長"
                         }
                     ]
@@ -129,35 +129,35 @@
                     ]
                 },{
                     "time":"14:25-14:40",
-                    "topic":"專講2 / 德國政府代表",
-                    "topicEn":"Keynote 2 / A German Government Official",
-                    "speaker":[
-                        {
-                            "speakerName":"德國薩克森邦州⻑",
-                            "speakerNameEN":"Mr. Michael Kretschmer",
-                            "speakerTitle":"Mr. Michael Kretschmer, Minister President of Saxony, Germany"
-                        }
-                    ]
-                },{
-                    "time":"14:40-14:55",
-                    "topic":"專講3 / 桃園市 – 與桃園擘劃數位未來及奔馳永續淨零",
-                    "topicEn":"Keynote 3 / Taoyuan City<br>Digitalize the City's Future and Race to Zero with Taoyuan",
+                    "topic":"專講2 / 桃園市與桃園擘劃數位未來及奔馳永續淨",
+                    "topicEn":"Keynote 2 / Taoyuan City Digitalize the City’s Future and Race to Zero with Taoyuan",
                     "speaker":[
                         {
                             "speakerName":"張善政",
-                            "speakerNameEN":"Mr. San-cheng Chang, Taoyuan City Mayor,R.O.C (Taiwan)",
+                            "speakerNameEN":"San-cheng Chang, Taoyuan City Mayor, R.O.C (Taiwan)",
                             "speakerTitle":"桃園市市長"
                         }
                     ]
                 },{
-                    "time":"14:55-15:10",
-                    "topic":"專講4 / 德國科技夥伴 – 以數位科技賦能城市4.0與城市淨零",
-                    "topicEn":"Keynote 5 / German Technology Partner<br>Empower City 4.0 and City Net-zero through Digitalization Technologies",
+                    "time":"14:40-14:55",
+                    "topic":"專講3 / 德國科技夥伴以數位科技賦能城市4.0與城市淨零",
+                    "topicEn":"Keynote 3 / German Technology Partner Empower City 4.0 and City Net-zero through Digitalization Technologies",
                     "speaker":[
                         {
                             "speakerName":"張合翕",
-                            "speakerNameEN":"Mr. Frank Grunert, President & CEO, Siemens Taiwan",
-                            "speakerTitle":"台灣西門子總裁暨執行長"
+                            "speakerNameEN":"Frank Grunert, President & CEO, Siemens Taiwan",
+                            "speakerTitle":"台灣⻄⾨⼦總裁暨執⾏⻑"
+                        }
+                    ]
+                },{
+                    "time":"14:55-15:10",
+                    "topic":"專講4 / 德國講題由德⽅",
+                    "topicEn":"Keynote 5 / A German Government Official Topic to be proposed by the German side",
+                    "speaker":[
+                        {
+                            "speakerName":"Michael Kretschmer",
+                            "speakerNameEN":"Michael Kretschmer, Minister-President of the Free State of Saxony, Germany",
+                            "speakerTitle":"德國薩克森邦邦總理"
                         }
                     ]
                 },{
@@ -178,27 +178,27 @@
                     "speaker":[
                         {
                             "speakerName":"Mr. Dirk Panter",
-                            "speakerNameEN":"Mr. Dirk Panter, Minister of the Saxon State Ministry for Economic Affairs,Labor and Transport, Germany",
+                            "speakerNameEN":"Dirk Panter, Minister of the Saxon State Ministry for Economic Affairs,Labor and Transport, Germany",
                             "speakerTitle":"德國薩克森州經濟、勞工、與交通部部長"
                         },
                         {
                             "speakerName":"林旭瑩",
-                            "speakerNameEN":"Ms. Christine lin, Director, Chairman Office Smart City Platform, Foxconn",
+                            "speakerNameEN":"Christine lin, Director, Chairman Office Smart City Platform, Foxconn",
                             "speakerTitle":"鴻海科技集團董事長辦公室智慧城市平台處長"
                         },
                         {
-                            "speakerName":"莫德飛",
-                            "speakerNameEN":"Mr. Philipp Moede, Director of Operations, REMONDIS Taiwan",
-                            "speakerTitle":"台灣瑞曼迪斯營運總監"
+                            "speakerName":"戴英傑",
+                            "speakerNameEN":"Jim Tai, General Manager, REMONDIS Taiwan",
+                            "speakerTitle":"台灣瑞曼迪斯總經理"
                         },
                         {
-                            "speakerName":"藍依樺博士",
-                            "speakerNameEN":"Dr. Eva Langerbeck, Chief Representative, GTO",
+                            "speakerName":"蘭依樺博士",
+                            "speakerNameEN":"Eva Langerbeck, Chief Representative, GTO",
                             "speakerTitle":"德國經濟辦事處首席代表"
                         },
                         {
                             "speakerName":"張合翕",
-                            "speakerNameEN":"Mr. Frank Grunert, President & CEO, Siemens Taiwan",
+                            "speakerNameEN":"Frank Grunert, President & CEO, Siemens Taiwan",
                             "speakerTitle":"台灣西門子總裁暨執行長"
                         }
                     ]
@@ -208,13 +208,13 @@
                     "topicEn":"Core Statements",
                     "speaker":[
                         {
-                            "speakerName":"許佑格博士",
-                            "speakerNameEN":"Dr. Jörg Polster, Director General, GIT",
-                            "speakerTitle":"德國在臺協會代表"
+                            "speakerName":"狄嘉信",
+                            "speakerNameEN":"Karsten Tietz, Director General, German Institute Taipei",
+                            "speakerTitle":"德國在台協會代表"
                         },
                         {
                             "speakerName":"簡又新大使暨博士",
-                            "speakerNameEN":"Dr. Eugene Chien, Chairman,TAISE",
+                            "speakerNameEN":"Eugene Chien, Chairman,TAISE",
                             "speakerTitle":"台灣永續能源研究基金會董事長"
                         }
                     ]
