@@ -24,12 +24,6 @@
             "tagNameEn":"signUp",
             "tagUrl":"#signUp",
             "tagClassName":"menu_signUp"
-        },{
-            "tag":false,
-            "tagName":"產業動態",
-            "tagNameEn":"event",
-            "tagUrl":"#event",
-            "tagClassName":"menu_event"
         }
     ],
     "content":[
