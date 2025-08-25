@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://events-jackie.businesstoday.com.tw', // 主站
+  site: 'https://events.businesstoday.com.tw', // 主站
   base: '/2025/2025siemen/',                          // 子路徑（一定要前後都有斜線）
   integrations: [vue()],
   vite: {
