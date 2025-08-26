@@ -12,7 +12,7 @@
             "name":"梁永煌",
             "nameEn":"Andy Y.H.Liang",
             "title":"今周刊發行人",
-            "titleEn":"President,Business Today"
+            "titleEn":"President, Business Today"
         },
         {
             "img":"speaker3.png",
@@ -22,11 +22,11 @@
             "titleEn":"Minister-President of the Free State of Saxony"
         },
         {
-            "img":"speaker5.png",
-            "name":"戴英傑",
-            "nameEn":"Jim, Tai Ying-Chieh",
-            "title":"瑞曼迪斯力麗企業(股)公司總經理",
-            "titleEn":"General Manager, REMONDIS Taiwan Co, Ltd."
+            "img":"speaker8.png",
+            "name":"Dirk Panter",
+            "nameEn":"",
+            "title":"德國薩克森州經濟、勞工、與交通部部長",
+            "titleEn":"Minister of the Saxon State Ministry for Economic Affairs, Labor and Transport, Germany"
         },
         {
             "img":"speaker4.png",
@@ -36,11 +36,32 @@
             "titleEn":"Senior Director, Foxconn®"
         },
         {
+            "img":"speaker5.png",
+            "name":"戴英傑",
+            "nameEn":"Jim, Tai Ying-Chieh",
+            "title":"瑞曼迪斯力麗企業(股)公司總經理",
+            "titleEn":"General Manager, REMONDIS Taiwan Co, Ltd."
+        },
+         {
+            "img":"speaker7.png",
+            "name":"蘭依樺",
+            "nameEn":"Dr. Eva Langerbeck",
+            "title":"德國經濟辦事處⾸席代表暨博⼠",
+            "titleEn":"Chief Representative, German Trade Office Taipei"
+        },
+        {
             "img":"speaker6.png",
             "name":"狄嘉信",
             "nameEn":"Karsten Tietz",
             "title":"德國在台協會代表",
             "titleEn":"Director General, German Institute Taipei"
+        },
+        {
+            "img":"speaker9.png",
+            "name":"簡⼜新",
+            "nameEn":"Dr. Eugene Chien",
+            "title":"台灣永續能源研究基⾦會董事⻑⼤使暨博⼠",
+            "titleEn":"Chairman, Taiwan Institute for Sustainable Energy"
         }
     ]
 }

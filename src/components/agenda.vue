@@ -53,7 +53,7 @@
                     </div>
                </div>
 
-               <div class="event_info_item flex flex-col gap-2 sm:gap-5">
+               <!-- <div class="event_info_item flex flex-col gap-2 sm:gap-5">
                     <div class="title_box h-fit w-fit block rounded-lg font-bold py-1 px-3" style="background-color: #5e74f3;">
                         <p class="text-white text-2xl 2xl:text-4xl">{{infoData.guidingUnitsTitle}}</p>
                     </div>
@@ -65,7 +65,7 @@
                     <div class="text_box flex flex-col items-start gap-1 ml-0 2xl:items-baseline 2xl:gap-2 2xl:ml-0">
                         <p class="text-stone-500 text-xl 2xl:text-2xl">{{infoData.guidingUnitsTitleEn}}: {{infoData.guidingUnitsEn}}</p>
                     </div>
-               </div>
+               </div> -->
 
                <div class="event_info_item flex flex-col gap-2 sm:gap-5">
                     <div class="title_box h-fit w-fit block rounded-lg font-bold py-1 px-3" style="background-color: #5e74f3;">

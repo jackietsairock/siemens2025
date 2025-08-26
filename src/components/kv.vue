@@ -43,11 +43,11 @@
             <img class="kv_subtitle" :src="withBase('kv_subtitle.svg')" alt="kv_subtitle" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" />
 
             <div class="kv_logo_area" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
-                <img class="kv_logo kv_logo5" :src="withBase('logo5.svg')" alt="kv_logo5" />
-                <img class="kv_logo kv_logo2" :src="withBase('logo2.svg')" alt="kv_logo2" />
                 <img class="kv_logo kv_logo1" :src="withBase('logo1.svg')" alt="kv_logo1" />
+                <img class="kv_logo kv_logo2" :src="withBase('logo2.svg')" alt="kv_logo2" />
                 <img class="kv_logo kv_logo3" :src="withBase('logo3.svg')" alt="kv_logo3" />
                 <img class="kv_logo kv_logo4" :src="withBase('logo4.svg')" alt="kv_logo4" />
+                <img class="kv_logo kv_logo5" :src="withBase('logo5.svg')" alt="kv_logo5" />
             </div>
 
             <img class="kv_infinity" :src="withBase('kv_infinity.svg')" alt="kv_infinity" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" data-aos-offset="0"/>
@@ -241,7 +241,7 @@
         .kv_logo_area{
             top: 27%;
             height: 28%;
-            width: 90%;
+            width: 113%;
             gap: 0%;
             /* border: 1px solid #000; */
             flex-wrap: wrap;
