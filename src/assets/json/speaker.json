@@ -3,7 +3,7 @@
         {
             "img":"speaker1.png",
             "name":"張合翕",
-            "nameEn":"Erdal Elver",
+            "nameEn":"Frank Grunert",
             "title":"台灣西門子總裁暨執行長",
             "titleEn":"President and CEO, Siemens Taiwan"
         },
@@ -18,14 +18,14 @@
             "img":"speaker3.png",
             "name":"Michael Kretschmer",
             "nameEn":"",
-            "title":"德國薩克森邦邦長",
+            "title":"德國薩克森邦總理",
             "titleEn":"Minister-President of the Free State of Saxony"
         },
         {
             "img":"speaker8.png",
             "name":"Dirk Panter",
             "nameEn":"",
-            "title":"德國薩克森州經濟、勞工、與交通部部長",
+            "title":"德國薩克森邦經濟、勞工、與交通部部長",
             "titleEn":"Minister of the Saxon State Ministry for Economic Affairs, Labor and Transport, Germany"
         },
         {
@@ -59,9 +59,9 @@
         {
             "img":"speaker9.png",
             "name":"簡⼜新",
-            "nameEn":"Dr. Eugene Chien",
-            "title":"台灣永續能源研究基⾦會董事⻑⼤使暨博⼠",
-            "titleEn":"Chairman, Taiwan Institute for Sustainable Energy"
+            "nameEn":"Eugene Chien",
+            "title":"台灣永續能源研究基⾦會董事⻑簡⼜新⼤使暨博⼠",
+            "titleEn":"Chairman,TAISE"
         }
     ]
 }

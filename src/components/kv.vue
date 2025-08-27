@@ -249,16 +249,16 @@
         }
 
         .kv_logo{
-            height: 50%;
-            margin-right: 8%;
+            height: 35%;
+            margin-right: 3%;
         }
 
         .kv_logo5{
-            height: 35%;
+            height: 25%;
         }
 
         .kv_logo1{
-            height: 65%;
+            height: 42%;
         }
 
         .kv_infinity{
