@@ -117,7 +117,7 @@
                     "speaker":[
                         {
                             "speakerName":"蔣萬安(邀約中)",
-                            "speakerNameEN":"Wan-an Chiang, Taipei City Mayor, R.O.C (Taiwan)(Invitation)",
+                            "speakerNameEN":"Wan-an Chiang, Taipei City Mayor, R.O.C (Taiwan)(Invited)",
                             "speakerTitle":"台北市⻑"
                         }
                     ]
@@ -139,14 +139,14 @@
                     "speaker":[
                         {
                             "speakerName":"張善政(邀約中)",
-                            "speakerNameEN":"San-cheng Chang, Taoyuan City Mayor, R.O.C (Taiwan)(Invitation)",
+                            "speakerNameEN":"San-cheng Chang, Taoyuan City Mayor, R.O.C (Taiwan)(Invited)",
                             "speakerTitle":"桃園市⻑"
                         }
                     ]
                 },{
                     "time":"14:40-14:55",
-                    "topic":"專講3 / 德國科技夥伴以數位科技賦能城市4.0與城市淨零",
-                    "topicEn":"Keynote 3 / German Technology Partner Empower City 4.0 and City Net-zero through Digitalization Technologies",
+                    "topic":"專講3 / 以數位科技賦能城市4.0與城市淨零",
+                    "topicEn":"Keynote 3 / Empower City 4.0 and City Net-zero through Digitalization Technologies",
                     "speaker":[
                         {
                             "speakerName":"張合翕",
