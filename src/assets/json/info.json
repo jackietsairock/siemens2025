@@ -18,12 +18,6 @@
             "tagNameEn":"agenda",
             "tagUrl":"#agenda",
             "tagClassName":"menu_agenda"
-        },{
-            "tag":false,
-            "tagName":"報名欄目",
-            "tagNameEn":"signUp",
-            "tagUrl":"#signUp",
-            "tagClassName":"menu_signUp"
         }
     ],
     "content":[
@@ -111,18 +105,18 @@
                         }
                     ]
                 },{
-                    "time":"14:05-14:20",
-                    "topic":"專講1 / 打造台北成世界級的AI重鎮與淨零先驅",
-                    "topicEn":"Keynote 1 / Building Taipei into the World-class AI Powerhouse and Net-zero Pioneer",
+                    "time":"14:05-14:15",
+                    "topic":"專講1 / 暨貴賓致詞",
+                    "topicEn":"Keynote 1 and VIP Remarks",
                     "speaker":[
                         {
-                            "speakerName":"蔣萬安(邀約中)",
-                            "speakerNameEN":"Wan-an Chiang, Taipei City Mayor, R.O.C (Taiwan)(Invited)",
-                            "speakerTitle":"台北市⻑"
+                            "speakerName":"高仙桂",
+                            "speakerNameEN":"Shien-Quey Kao, Deputy Minister, National Development Council, R.O.C (Taiwan)",
+                            "speakerTitle":"國家發展委員會副主任委員"
                         }
                     ]
                 },{
-                    "time":"14:20-14:25",
+                    "time":"14:15-14:20",
                     "topic":"大合照",
                     "topicEn":"Group Photos",
                     "speaker":[
@@ -133,20 +127,9 @@
                         }
                     ]
                 },{
-                    "time":"14:25-14:40",
-                    "topic":"專講2 / 與桃園擘劃數位未來及奔馳永續淨零",
-                    "topicEn":"Keynote 2 / Digitalize the City's Future and Race to Zero with Taoyuan",
-                    "speaker":[
-                        {
-                            "speakerName":"蘇俊賓",
-                            "speakerNameEN":"Jun-pin Su, Deputy Mayor of Taoyuan Cityr, R.O.C (Taiwan)",
-                            "speakerTitle":"桃園市副市長"
-                        }
-                    ]
-                },{
-                    "time":"14:40-14:55",
-                    "topic":"專講3 / 以數位科技賦能城市4.0與城市淨零",
-                    "topicEn":"Keynote 3 / Empower City 4.0 and City Net-zero through Digitalization Technologies",
+                    "time":"14:20-14:35",
+                    "topic":"專講2 / 以數位科技賦能城市 4.0 與城市淨零",
+                    "topicEn":"Keynote 2 / German Technology Partner",
                     "speaker":[
                         {
                             "speakerName":"張合翕",
@@ -155,7 +138,29 @@
                         }
                     ]
                 },{
-                    "time":"14:55-15:10",
+                    "time":"14:35-14:50",
+                    "topic":"專講3 / 與桃園擘劃數位未來及奔馳永續淨零",
+                    "topicEn":"Keynote 3 / Digitalize the City's Future and Race to Zero with Taoyuan",
+                    "speaker":[
+                        {
+                            "speakerName":"蘇俊賓",
+                            "speakerNameEN":"Jun-bing Su, Deputy Taoyuan City Mayor, R.O.C (Taiwan)",
+                            "speakerTitle":"桃園市副市⻑"
+                        }
+                    ]
+                },{
+                    "time":"14:50-14:55",
+                    "topic":"大合照",
+                    "topicEn":"Group Photos",
+                    "speaker":[
+                        {
+                            "speakerName":"",
+                            "speakerNameEN":"",
+                            "speakerTitle":""
+                        }
+                    ]
+                },{
+                   "time":"14:55-15:10",
                     "topic":"專講4 / 薩克森邦邁向數位化與去碳化未來",
                     "topicEn":"Keynote 4 / Saxony's Journey to a Digitalized and Decarbonized Future",
                     "speaker":[
@@ -166,18 +171,7 @@
                         }
                     ]
                 },{
-                    "time":"15:10-15:15",
-                    "topic":"大合照",
-                    "topicEn":"Group Photos",
-                    "speaker":[
-                        {
-                            "speakerName":"",
-                            "speakerNameEN":"",
-                            "speakerTitle":""
-                        }
-                    ]
-                },{
-                    "time":"15:15-15:30",
+                    "time":"15:10-15:25",
                     "topic":"中場休息",
                     "topicEn":"Tea Break",
                     "speaker":[
@@ -188,7 +182,7 @@
                         }
                     ]
                 },{
-                    "time":"15:30-16:25",
+                    "time":"15:25-16:25",
                     "topic":"峰會交流座談<br><span class='font-normal'>Panel discussion</span><br><br>",
                     "topicEn":"與談人 Panelists",
                     "speaker":[
