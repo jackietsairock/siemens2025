@@ -166,7 +166,18 @@
                         }
                     ]
                 },{
-                    "time":"15:10-15:25",
+                    "time":"15:10-15:15",
+                    "topic":"大合照",
+                    "topicEn":"Group Photos",
+                    "speaker":[
+                        {
+                            "speakerName":"",
+                            "speakerNameEN":"",
+                            "speakerTitle":""
+                        }
+                    ]
+                },{
+                    "time":"15:15-15:30",
                     "topic":"中場休息",
                     "topicEn":"Tea Break",
                     "speaker":[
@@ -177,7 +188,7 @@
                         }
                     ]
                 },{
-                    "time":"15:25-16:25",
+                    "time":"15:30-16:25",
                     "topic":"峰會交流座談<br><span class='font-normal'>Panel discussion</span><br><br>",
                     "topicEn":"與談人 Panelists",
                     "speaker":[
@@ -213,9 +224,9 @@
                     "topicEn":"Core Statements",
                     "speaker":[
                         {
-                            "speakerName":"狄嘉信",
-                            "speakerNameEN":"Karsten Tietz, Director General, German Institute Taipei",
-                            "speakerTitle":"德國在台協會處長"
+                            "speakerName":"蘭依樺博士",
+                            "speakerNameEN":"Dr. Eva Langerbeck, Chief Representative, German Trade Office Taipei",
+                            "speakerTitle":"德國經濟辦事處首席代表"
                         },
                         {
                             "speakerName":"簡又新大使暨博士",
